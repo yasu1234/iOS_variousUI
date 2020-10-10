@@ -15,6 +15,7 @@
 		D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */; };
 		D2AC13B62531E8C3007EE06A /* swift_variousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13B52531E8C3007EE06A /* swift_variousUITests.swift */; };
 		D2AC13C12531E8C3007EE06A /* swift_variousUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13C02531E8C3007EE06A /* swift_variousUIUITests.swift */; };
+		D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13CE25320C8E007EE06A /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D2AC13BC2531E8C3007EE06A /* swift_variousUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_variousUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC13C02531E8C3007EE06A /* swift_variousUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_variousUIUITests.swift; sourceTree = "<group>"; };
 		D2AC13C22531E8C3007EE06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AC13CE25320C8E007EE06A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D2AC13A72531E8C3007EE06A /* Assets.xcassets */,
 				D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */,
 				D2AC13AC2531E8C3007EE06A /* Info.plist */,
+				D2AC13CE25320C8E007EE06A /* Login.storyboard */,
 			);
 			path = swift_variousUI;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
 				D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */,
 				D2AC13A62531E8C0007EE06A /* Main.storyboard in Resources */,

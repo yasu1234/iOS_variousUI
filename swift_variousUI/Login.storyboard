@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="L02-OY-UO7">
+            <objects>
+                <viewController id="Utm-9U-kuL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Acz-mI-5vg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mSE-S8-067" userLabel="RealLoginView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="409"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHi-Wc-xuX" userLabel="FakeLoginView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="409"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="偽ログイン画面プギャー((._.))" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4f-zS-edX">
+                                        <rect key="frame" x="30" y="44" width="354" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="Y4f-zS-edX" firstAttribute="leading" secondItem="hHi-Wc-xuX" secondAttribute="leading" constant="30" id="5Z5-V4-52v"/>
+                                    <constraint firstItem="Y4f-zS-edX" firstAttribute="top" secondItem="hHi-Wc-xuX" secondAttribute="top" constant="44" id="HDS-hY-Fv6"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y4f-zS-edX" secondAttribute="trailing" constant="30" id="jAq-Lk-FeZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFb-8z-qqV" userLabel="LoginFormView">
+                                <rect key="frame" x="0.0" y="453" width="414" height="409"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hHi-Wc-xuX" firstAttribute="leading" secondItem="2wI-9e-afi" secondAttribute="leading" id="3jw-Dy-ieg"/>
+                            <constraint firstItem="iFb-8z-qqV" firstAttribute="trailing" secondItem="2wI-9e-afi" secondAttribute="trailing" id="5ge-7g-Wus"/>
+                            <constraint firstItem="2wI-9e-afi" firstAttribute="bottom" secondItem="iFb-8z-qqV" secondAttribute="bottom" id="7Jt-3w-F3b"/>
+                            <constraint firstItem="iFb-8z-qqV" firstAttribute="height" secondItem="mSE-S8-067" secondAttribute="height" id="EPT-ou-2bM"/>
+                            <constraint firstItem="iFb-8z-qqV" firstAttribute="height" secondItem="hHi-Wc-xuX" secondAttribute="height" id="FtD-RC-vmX"/>
+                            <constraint firstItem="mSE-S8-067" firstAttribute="leading" secondItem="2wI-9e-afi" secondAttribute="leading" id="IsW-3D-m9X"/>
+                            <constraint firstItem="hHi-Wc-xuX" firstAttribute="top" secondItem="2wI-9e-afi" secondAttribute="top" id="PD2-Tt-AFp"/>
+                            <constraint firstItem="iFb-8z-qqV" firstAttribute="top" secondItem="mSE-S8-067" secondAttribute="bottom" id="gXg-gc-EVQ"/>
+                            <constraint firstItem="mSE-S8-067" firstAttribute="trailing" secondItem="2wI-9e-afi" secondAttribute="trailing" id="pYs-xM-FUM"/>
+                            <constraint firstItem="hHi-Wc-xuX" firstAttribute="trailing" secondItem="2wI-9e-afi" secondAttribute="trailing" id="skg-JW-Awo"/>
+                            <constraint firstItem="iFb-8z-qqV" firstAttribute="top" secondItem="hHi-Wc-xuX" secondAttribute="bottom" id="syu-Sm-OUM"/>
+                            <constraint firstItem="iFb-8z-qqV" firstAttribute="leading" secondItem="2wI-9e-afi" secondAttribute="leading" id="w7O-JX-T37"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2wI-9e-afi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IEn-Pl-3p8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+</document>
