@@ -16,6 +16,9 @@
 		D2AC13B62531E8C3007EE06A /* swift_variousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13B52531E8C3007EE06A /* swift_variousUITests.swift */; };
 		D2AC13C12531E8C3007EE06A /* swift_variousUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13C02531E8C3007EE06A /* swift_variousUIUITests.swift */; };
 		D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13CE25320C8E007EE06A /* Login.storyboard */; };
+		D2AC13D12532353C007EE06A /* LoginForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13D02532353C007EE06A /* LoginForm.xib */; };
+		D2AC13D325329DB7007EE06A /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D225329DB7007EE06A /* LoginForm.swift */; };
+		D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D42532A1E8007EE06A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		D2AC13C02531E8C3007EE06A /* swift_variousUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_variousUIUITests.swift; sourceTree = "<group>"; };
 		D2AC13C22531E8C3007EE06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2AC13CE25320C8E007EE06A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D2AC13D02532353C007EE06A /* LoginForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginForm.xib; sourceTree = "<group>"; };
+		D2AC13D225329DB7007EE06A /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		D2AC13D42532A1E8007EE06A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */,
 				D2AC13AC2531E8C3007EE06A /* Info.plist */,
 				D2AC13CE25320C8E007EE06A /* Login.storyboard */,
+				D2AC13D02532353C007EE06A /* LoginForm.xib */,
+				D2AC13D225329DB7007EE06A /* LoginForm.swift */,
+				D2AC13D42532A1E8007EE06A /* LoginViewController.swift */,
 			);
 			path = swift_variousUI;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AC13D12532353C007EE06A /* LoginForm.xib in Resources */,
 				D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
 				D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */,
@@ -266,6 +276,8 @@
 				D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */,
 				D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */,
 				D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */,
+				D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */,
+				D2AC13D325329DB7007EE06A /* LoginForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

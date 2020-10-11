@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginForm" customModule="swift_variousUI" customModuleProvider="target">
+            <connections>
+                <outlet property="loginButton" destination="X0V-RB-LAE" id="F01-vQ-K4L"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ログインID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iXF-fj-LaK">
+                    <rect key="frame" x="32" y="44" width="350" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v91-Ij-vOo">
+                    <rect key="frame" x="32" y="108" width="350" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0V-RB-LAE">
+                    <rect key="frame" x="32" y="172" width="350" height="30"/>
+                    <state key="normal" title="ログイン"/>
+                    <connections>
+                        <action selector="tapLoginButton:" destination="-1" eventType="touchUpInside" id="a5D-Lz-JCd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="v91-Ij-vOo" firstAttribute="top" secondItem="iXF-fj-LaK" secondAttribute="bottom" constant="30" id="3aZ-Gy-X9x"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="X0V-RB-LAE" secondAttribute="trailing" constant="32" id="MFY-JC-Txs"/>
+                <constraint firstItem="v91-Ij-vOo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="Q4G-yu-FSq"/>
+                <constraint firstItem="iXF-fj-LaK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="Y7k-GU-hKF"/>
+                <constraint firstItem="X0V-RB-LAE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="ZIA-Zd-Lrx"/>
+                <constraint firstItem="X0V-RB-LAE" firstAttribute="top" secondItem="v91-Ij-vOo" secondAttribute="bottom" constant="30" id="gYA-Ao-ua5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="v91-Ij-vOo" secondAttribute="trailing" constant="32" id="lXj-pO-gSh"/>
+                <constraint firstItem="iXF-fj-LaK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="tF0-wC-GXI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iXF-fj-LaK" secondAttribute="trailing" constant="32" id="u6N-AU-lai"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+</document>
