@@ -58,5 +58,4 @@ extension LoginForm {
     func realLogin(isFirstTap: Bool) {
         delegate?.realLogin(isFirstTap: isFirstTap)
     }
-    
 }

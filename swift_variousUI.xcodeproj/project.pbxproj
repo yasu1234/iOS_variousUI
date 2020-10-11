@@ -107,6 +107,7 @@
 		D2AC139D2531E8C0007EE06A /* swift_variousUI */ = {
 			isa = PBXGroup;
 			children = (
+				D2AC13D6253360C2007EE06A /* Login */,
 				D2AC139E2531E8C0007EE06A /* AppDelegate.swift */,
 				D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */,
 				D2AC13A22531E8C0007EE06A /* ViewController.swift */,
@@ -114,10 +115,6 @@
 				D2AC13A72531E8C3007EE06A /* Assets.xcassets */,
 				D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */,
 				D2AC13AC2531E8C3007EE06A /* Info.plist */,
-				D2AC13CE25320C8E007EE06A /* Login.storyboard */,
-				D2AC13D02532353C007EE06A /* LoginForm.xib */,
-				D2AC13D225329DB7007EE06A /* LoginForm.swift */,
-				D2AC13D42532A1E8007EE06A /* LoginViewController.swift */,
 			);
 			path = swift_variousUI;
 			sourceTree = "<group>";
@@ -138,6 +135,17 @@
 				D2AC13C22531E8C3007EE06A /* Info.plist */,
 			);
 			path = swift_variousUIUITests;
+			sourceTree = "<group>";
+		};
+		D2AC13D6253360C2007EE06A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC13D42532A1E8007EE06A /* LoginViewController.swift */,
+				D2AC13D225329DB7007EE06A /* LoginForm.swift */,
+				D2AC13D02532353C007EE06A /* LoginForm.xib */,
+				D2AC13CE25320C8E007EE06A /* Login.storyboard */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
