@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwipeMenuViewController
 
 class WeatherViewController: UIViewController {
 
@@ -33,4 +34,18 @@ extension WeatherViewController: StoryboardInstance {
         return String(describing: WeatherViewController.self)
     }
     
+}
+
+extension WeatherViewController: SwipeMenuViewDataSource {
+    func numberOfPages(in swipeMenuView: SwipeMenuView) -> Int {
+        <#code#>
+    }
+    
+    func swipeMenuView(_ swipeMenuView: SwipeMenuView, titleForPageAt index: Int) -> String {
+        <#code#>
+    }
+    
+    func swipeMenuView(_ swipeMenuView: SwipeMenuView, viewControllerForPageAt index: Int) -> UIViewController {
+        <#code#>
+    }
 }
