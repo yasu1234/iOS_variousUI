@@ -46,6 +46,9 @@ extension LoginViewController {
 extension LoginViewController {
     
     private func presentMainView() {
+        let controller = WeatherViewController.newInstance()
+        controller.modalPresentationStyle = .fullScreen
+        present(controller, animated: true, completion: nil)
     }
 }
 

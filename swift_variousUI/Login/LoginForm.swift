@@ -45,10 +45,10 @@ class LoginForm: UIView {
     @IBAction func tapLoginButton(_ sender: Any) {
         if (loginTapCount == 0) {
             loginButton.titleLabel?.text = "真ログイン"
-            realLogin(isFirstTap: false)
+            realLogin(isFirstTap: true)
             loginTapCount += 1
         } else {
-            realLogin(isFirstTap: true)
+            realLogin(isFirstTap: false)
         }
     }
 }
