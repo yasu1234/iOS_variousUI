@@ -1,14 +1,6 @@
-//
-//  LoginViewController.swift
-//  swift_variousUI
-//
-//  Created by kuma on 2020/10/11.
-//  Copyright © 2020 kuma. All rights reserved.
-//
-
 import UIKit
 
-class LoginViewController: UIViewController, LoginFormDelegate {
+class LoginViewController: UIViewController {
     
     @IBOutlet private weak var loginForm: LoginForm!
     @IBOutlet weak var realLoginView: UIView!
@@ -20,14 +12,6 @@ class LoginViewController: UIViewController, LoginFormDelegate {
         
         loginForm.delegate = self
 
-    }
-    
-    func realLogin(isFirstTap: Bool) {
-        if isFirstTap {
-            changeRealLoginView()
-        } else {
-            presentMainView()
-        }
     }
 }
 
@@ -46,9 +30,22 @@ extension LoginViewController {
 extension LoginViewController {
     
     private func presentMainView() {
-        let controller = WeatherViewController.newInstance()
+        let controller = CollectionViewController.newInstance()
         controller.modalPresentationStyle = .fullScreen
         present(controller, animated: true, completion: nil)
+    }
+}
+
+
+// MARK: - LoginFormDelegate
+
+extension LoginViewController: LoginFormDelegate {
+    func realLogin(isFirstTap: Bool) {
+        if isFirstTap {
+            changeRealLoginView()
+        } else {
+            presentMainView()
+        }
     }
 }
 

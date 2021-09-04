@@ -1,11 +1,3 @@
-//
-//  LoginForm.swift
-//  swift_variousUI
-//
-//  Created by kuma on 2020/10/11.
-//  Copyright © 2020 kuma. All rights reserved.
-//
-
 import UIKit
 
 protocol LoginFormDelegate: class {
@@ -42,6 +34,9 @@ class LoginForm: UIView {
         addSubview(view)
     }
 
+}
+
+extension LoginForm {
     @IBAction func tapLoginButton(_ sender: Any) {
         if (loginTapCount == 0) {
             loginButton.titleLabel?.text = "真ログイン"
@@ -53,7 +48,7 @@ class LoginForm: UIView {
     }
 }
 
-// MARK: - delegate
+// MARK: - Delegate
 extension LoginForm {
     func realLogin(isFirstTap: Bool) {
         delegate?.realLogin(isFirstTap: isFirstTap)

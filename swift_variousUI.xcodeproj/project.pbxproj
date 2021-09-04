@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E56BBDCD67A23961454F3B6 /* Pods_swift_variousUI_swift_variousUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90C889D70C7A9D2082C3A78 /* Pods_swift_variousUI_swift_variousUIUITests.framework */; };
 		2514176AF5BB22D4334D1B24 /* Pods_swift_variousUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95243445F2198023ACBAD2EE /* Pods_swift_variousUITests.framework */; };
 		4845F931FFAB661BC4041312 /* Pods_swift_variousUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7736294E72827837461ED5CE /* Pods_swift_variousUI.framework */; };
+		D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */; };
 		D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC139E2531E8C0007EE06A /* AppDelegate.swift */; };
 		D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */; };
 		D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A22531E8C0007EE06A /* ViewController.swift */; };
@@ -22,9 +23,9 @@
 		D2AC13D12532353C007EE06A /* LoginForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13D02532353C007EE06A /* LoginForm.xib */; };
 		D2AC13D325329DB7007EE06A /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D225329DB7007EE06A /* LoginForm.swift */; };
 		D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D42532A1E8007EE06A /* LoginViewController.swift */; };
-		D2AC13D8253B6995007EE06A /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D7253B6995007EE06A /* WeatherViewController.swift */; };
+		D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D7253B6995007EE06A /* CollectionViewController.swift */; };
 		D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13DC253B6ACC007EE06A /* XibInstance.swift */; };
-		D2AC13DF253B6B5F007EE06A /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13DE253B6B5F007EE06A /* Weather.storyboard */; };
+		D2AC13DF253B6B5F007EE06A /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13DE253B6B5F007EE06A /* Collection.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		7736294E72827837461ED5CE /* Pods_swift_variousUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_variousUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95243445F2198023ACBAD2EE /* Pods_swift_variousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_variousUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8AC913B5D7CE20CA9CF6AA /* Pods-swift_variousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_variousUITests.release.xcconfig"; path = "Target Support Files/Pods-swift_variousUITests/Pods-swift_variousUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		D2AC139B2531E8C0007EE06A /* swift_variousUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_variousUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC139E2531E8C0007EE06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,9 +72,9 @@
 		D2AC13D02532353C007EE06A /* LoginForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginForm.xib; sourceTree = "<group>"; };
 		D2AC13D225329DB7007EE06A /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		D2AC13D42532A1E8007EE06A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		D2AC13D7253B6995007EE06A /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		D2AC13D7253B6995007EE06A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		D2AC13DC253B6ACC007EE06A /* XibInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibInstance.swift; sourceTree = "<group>"; };
-		D2AC13DE253B6B5F007EE06A /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+		D2AC13DE253B6B5F007EE06A /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
 		F90C889D70C7A9D2082C3A78 /* Pods_swift_variousUI_swift_variousUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_variousUI_swift_variousUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93C1AB57E3F16CDE2DA9051 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,8 +127,15 @@
 				69A9BA5C127CE047378E8F7F /* Pods-swift_variousUITests.debug.xcconfig */,
 				9A8AC913B5D7CE20CA9CF6AA /* Pods-swift_variousUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D21855C826E3AF7D00DF7F29 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC13DC253B6ACC007EE06A /* XibInstance.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		D2AC13922531E8C0007EE06A = {
@@ -156,6 +165,7 @@
 			children = (
 				D2AC13D9253B69FE007EE06A /* Weather */,
 				D2AC13D6253360C2007EE06A /* Login */,
+				D21855C826E3AF7D00DF7F29 /* Protocol */,
 				D2AC139E2531E8C0007EE06A /* AppDelegate.swift */,
 				D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */,
 				D2AC13A22531E8C0007EE06A /* ViewController.swift */,
@@ -163,7 +173,6 @@
 				D2AC13A72531E8C3007EE06A /* Assets.xcassets */,
 				D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */,
 				D2AC13AC2531E8C3007EE06A /* Info.plist */,
-				D2AC13DC253B6ACC007EE06A /* XibInstance.swift */,
 			);
 			path = swift_variousUI;
 			sourceTree = "<group>";
@@ -200,8 +209,9 @@
 		D2AC13D9253B69FE007EE06A /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				D2AC13D7253B6995007EE06A /* WeatherViewController.swift */,
-				D2AC13DE253B6B5F007EE06A /* Weather.storyboard */,
+				D2AC13D7253B6995007EE06A /* CollectionViewController.swift */,
+				D2AC13DE253B6B5F007EE06A /* Collection.storyboard */,
+				D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -316,7 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AC13D12532353C007EE06A /* LoginForm.xib in Resources */,
-				D2AC13DF253B6B5F007EE06A /* Weather.storyboard in Resources */,
+				D2AC13DF253B6B5F007EE06A /* Collection.storyboard in Resources */,
 				D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
 				D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */,
@@ -450,10 +460,11 @@
 			files = (
 				D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */,
 				D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */,
-				D2AC13D8253B6995007EE06A /* WeatherViewController.swift in Sources */,
+				D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */,
 				D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */,
 				D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */,
 				D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */,
+				D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */,
 				D2AC13D325329DB7007EE06A /* LoginForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Utm-9U-kuL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Utm-9U-kuL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,38 +19,67 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mSE-S8-067" userLabel="RealLoginView">
                                 <rect key="frame" x="0.0" y="44" width="414" height="409"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHi-Wc-xuX" userLabel="FakeLoginView">
                                 <rect key="frame" x="0.0" y="44" width="414" height="409"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFb-8z-qqV" userLabel="LoginFormView">
                                 <rect key="frame" x="0.0" y="453" width="414" height="409"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffn-Nl-VzE" customClass="LoginForm" customModule="swift_variousUI" customModuleProvider="target">
                                         <rect key="frame" x="30" y="40" width="354" height="250"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="250" id="4zF-uN-45f"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="ffn-Nl-VzE" firstAttribute="leading" secondItem="iFb-8z-qqV" secondAttribute="leading" constant="30" id="Hmz-5I-kcA"/>
                                     <constraint firstItem="ffn-Nl-VzE" firstAttribute="top" secondItem="iFb-8z-qqV" secondAttribute="top" constant="40" id="bHI-fa-Abl"/>
                                     <constraint firstAttribute="trailing" secondItem="ffn-Nl-VzE" secondAttribute="trailing" constant="30" id="k6h-4l-jCJ"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="偽ログイン画面プギャー((._.))" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4f-zS-edX">
-                                <rect key="frame" x="30" y="88" width="354" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4f-zS-edX">
+                                <rect key="frame" x="30" y="88" width="354" height="50.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="偽ログイン画面プギャー">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="((._.))">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="改行デフォルトはこんな感じ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="11" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2wI-9e-afi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hHi-Wc-xuX" firstAttribute="leading" secondItem="2wI-9e-afi" secondAttribute="leading" id="3jw-Dy-ieg"/>
                             <constraint firstItem="iFb-8z-qqV" firstAttribute="trailing" secondItem="2wI-9e-afi" secondAttribute="trailing" id="5ge-7g-Wus"/>
@@ -66,7 +97,6 @@
                             <constraint firstItem="iFb-8z-qqV" firstAttribute="leading" secondItem="2wI-9e-afi" secondAttribute="leading" id="w7O-JX-T37"/>
                             <constraint firstItem="Y4f-zS-edX" firstAttribute="top" secondItem="2wI-9e-afi" secondAttribute="top" constant="44" id="zzt-3s-dw7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="2wI-9e-afi"/>
                     </view>
                     <connections>
                         <outlet property="fakeLoginView" destination="hHi-Wc-xuX" id="e5I-Ry-8vk"/>
@@ -80,4 +110,9 @@
             <point key="canvasLocation" x="-4.3478260869565224" y="99.776785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
