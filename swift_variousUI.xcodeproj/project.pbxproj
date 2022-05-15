@@ -11,6 +11,9 @@
 		2514176AF5BB22D4334D1B24 /* Pods_swift_variousUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95243445F2198023ACBAD2EE /* Pods_swift_variousUITests.framework */; };
 		4845F931FFAB661BC4041312 /* Pods_swift_variousUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7736294E72827837461ED5CE /* Pods_swift_variousUI.framework */; };
 		D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */; };
+		D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */; };
+		D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A8C5122831196200AFC23F /* LoginCustomView.xib */; };
+		D2A8C51528311A4B00AFC23F /* LoginCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */; };
 		D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC139E2531E8C0007EE06A /* AppDelegate.swift */; };
 		D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */; };
 		D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A22531E8C0007EE06A /* ViewController.swift */; };
@@ -54,6 +57,9 @@
 		95243445F2198023ACBAD2EE /* Pods_swift_variousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_variousUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8AC913B5D7CE20CA9CF6AA /* Pods-swift_variousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_variousUITests.release.xcconfig"; path = "Target Support Files/Pods-swift_variousUITests/Pods-swift_variousUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomViewController.swift; sourceTree = "<group>"; };
+		D2A8C5122831196200AFC23F /* LoginCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginCustomView.xib; sourceTree = "<group>"; };
+		D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomView.swift; sourceTree = "<group>"; };
 		D2AC139B2531E8C0007EE06A /* swift_variousUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_variousUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC139E2531E8C0007EE06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +208,9 @@
 				D2AC13D225329DB7007EE06A /* LoginForm.swift */,
 				D2AC13D02532353C007EE06A /* LoginForm.xib */,
 				D2AC13CE25320C8E007EE06A /* Login.storyboard */,
+				D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */,
+				D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */,
+				D2A8C5122831196200AFC23F /* LoginCustomView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -328,6 +337,7 @@
 				D2AC13D12532353C007EE06A /* LoginForm.xib in Resources */,
 				D2AC13DF253B6B5F007EE06A /* Collection.storyboard in Resources */,
 				D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */,
+				D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
 				D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */,
 				D2AC13A62531E8C0007EE06A /* Main.storyboard in Resources */,
@@ -461,6 +471,8 @@
 				D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */,
 				D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */,
 				D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */,
+				D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */,
+				D2A8C51528311A4B00AFC23F /* LoginCustomView.swift in Sources */,
 				D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */,
 				D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */,
 				D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */,

@@ -1,7 +1,6 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    
     @IBOutlet private weak var loginForm: LoginForm!
     @IBOutlet weak var realLoginView: UIView!
     @IBOutlet weak var fakeLoginView: UIView!
@@ -28,9 +27,8 @@ extension LoginViewController {
 // MARK: - Transition
 
 extension LoginViewController {
-    
-    private func presentMainView() {
-        let controller = CollectionViewController.newInstance()
+    private func presentLoginCustomViewController() {
+        let controller = LoginCustomViewController.newInstance()
         controller.modalPresentationStyle = .fullScreen
         present(controller, animated: true, completion: nil)
     }
@@ -44,7 +42,7 @@ extension LoginViewController: LoginFormDelegate {
         if isFirstTap {
             changeRealLoginView()
         } else {
-            presentMainView()
+            presentLoginCustomViewController()
         }
     }
 }
