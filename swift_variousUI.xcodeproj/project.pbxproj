@@ -14,6 +14,7 @@
 		D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */; };
 		D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A8C5122831196200AFC23F /* LoginCustomView.xib */; };
 		D2A8C51528311A4B00AFC23F /* LoginCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */; };
+		D2A8C51828341E4B00AFC23F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C51728341E4B00AFC23F /* MainTabBarController.swift */; };
 		D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC139E2531E8C0007EE06A /* AppDelegate.swift */; };
 		D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */; };
 		D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A22531E8C0007EE06A /* ViewController.swift */; };
@@ -60,6 +61,7 @@
 		D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomViewController.swift; sourceTree = "<group>"; };
 		D2A8C5122831196200AFC23F /* LoginCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginCustomView.xib; sourceTree = "<group>"; };
 		D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomView.swift; sourceTree = "<group>"; };
+		D2A8C51728341E4B00AFC23F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		D2AC139B2531E8C0007EE06A /* swift_variousUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_variousUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC139E2531E8C0007EE06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,14 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		D2A8C51628341E2F00AFC23F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D2A8C51728341E4B00AFC23F /* MainTabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		D2AC13922531E8C0007EE06A = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +179,7 @@
 		D2AC139D2531E8C0007EE06A /* swift_variousUI */ = {
 			isa = PBXGroup;
 			children = (
+				D2A8C51628341E2F00AFC23F /* Base */,
 				D2AC13D9253B69FE007EE06A /* Weather */,
 				D2AC13D6253360C2007EE06A /* Login */,
 				D21855C826E3AF7D00DF7F29 /* Protocol */,
@@ -470,6 +481,7 @@
 			files = (
 				D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */,
 				D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */,
+				D2A8C51828341E4B00AFC23F /* MainTabBarController.swift in Sources */,
 				D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */,
 				D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */,
 				D2A8C51528311A4B00AFC23F /* LoginCustomView.swift in Sources */,

@@ -23,9 +23,7 @@ extension LoginCustomViewController {
 
 extension LoginCustomViewController {
     private func presentMainView() {
-        let controller = CollectionViewController.newInstance()
-        controller.modalPresentationStyle = .fullScreen
-        present(controller, animated: true, completion: nil)
+        SceneDelegate.shared.showMainContent()
     }
 }
 
