@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="L02-OY-UO7">
             <objects>
-                <viewController id="Utm-9U-kuL" customClass="LoginViewController" customModule="swift_variousUI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="Utm-9U-kuL" customClass="LoginViewController" customModule="swift_variousUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Acz-mI-5vg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,14 +8,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        guard let _ = (scene as? UIWindowScene) else { return }
-        let window = UIWindow(windowScene: scene as! UIWindowScene)
-        self.window = window
+        guard let scene = (scene as? UIWindowScene) else { return }
+        let window = UIWindow(windowScene: scene)
         
         // this is the way how to use UIStoryboard class
-        let storyboard = UIStoryboard(name: "Login", bundle: nil)
-        let vc = storyboard.instantiateInitialViewController()
+        let vc = LoginViewController.newInstance()
         window.rootViewController = vc
+        window.makeKeyAndVisible()
+        self.window = window
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

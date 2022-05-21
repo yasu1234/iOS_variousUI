@@ -47,3 +47,19 @@ extension LoginViewController: LoginFormDelegate {
     }
 }
 
+extension LoginViewController: StoryboardInstance {
+    static func newInstance() -> LoginViewController {
+        let controller = UIStoryboard(name:LoginViewController.storyboardName(), bundle: nil).instantiateViewController(withIdentifier: LoginViewController.identifer()) as! LoginViewController
+        
+        return controller
+    }
+    
+    static func storyboardName() -> String {
+        return "Login"
+    }
+    
+    static func identifer() -> String {
+        return String(describing: LoginViewController.self)
+    }
+}
+

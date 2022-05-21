@@ -23,7 +23,11 @@ extension LoginCustomViewController {
 
 extension LoginCustomViewController {
     private func presentMainView() {
-        SceneDelegate.shared.showMainContent()
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+              let delegate = windowScene.delegate as? SceneDelegate else {
+                  return
+              }
+        delegate.showMainContent()
     }
 }
 
