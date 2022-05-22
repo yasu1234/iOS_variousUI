@@ -3,48 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		085C91863B8E6545B953BA0BF9DBFBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1CB8347DEC7B0B650D3B5A2786333575 /* Pods-swift_variousUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA040FA89D5570F4381E06E936EB3A1 /* Pods-swift_variousUITests-dummy.m */; };
-		1F513300FB235FB6CF022C49417E5AB2 /* Pods-swift_variousUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 392138046070AB41A7052FC5D5B0D52D /* Pods-swift_variousUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23927711895669357A624B6274C7B486 /* SwipeMenuViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D948A0E952156AB2CF183DE0D3A6EA1D /* SwipeMenuViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29D2D3E7CF0F6DC0CD3AF37B5ACD9C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		412EAA8D1293AE8272E6B78978C2B555 /* Pods-swift_variousUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC276662A9571EC4C7D5B69451F87098 /* Pods-swift_variousUI-dummy.m */; };
-		77B9153709D33EEAC012E34D88C1E142 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D767F24AB64740D8A9CA6C043769BD /* TabItemView.swift */; };
-		86122BCC4F40D15662D3F17268E39DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8D1CE5000597A547F432AE840A388D95 /* UIEdgeInsetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4191810FF02BED9C8CDD216765BBB7E7 /* UIEdgeInsetsExtension.swift */; };
-		9E97897CB645D4A0ED10AF87A1226193 /* SwipeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83C6570AC79A188653DE84C6EB7FAEE /* SwipeMenuViewController.swift */; };
-		B46682AFD3AF846DE969FCFAEB90BEC0 /* SwipeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F55AE4741B88C5FCB89D4EAA9EB81B /* SwipeMenuView.swift */; };
-		B8BCD21052B6E65DD4E1C1CB00969721 /* ContentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7699DF2D80412DEE50C265EAB0728A98 /* ContentScrollView.swift */; };
-		BA0CDF35112B8AB87205B587947A742B /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C86D4CBBFE55C02F72B641ED95BC62 /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m */; };
-		C1C65D26B40AE8EDE6B6D841761934D1 /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FA3A417EF0D5C83399D7F9B0857AA0 /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCE45A7E8FB49F0C56954990E4080AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DDD8609251AFED79B8F7532E3A206F05 /* SwipeMenuViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1CE1561410D7728A139BA954B7133 /* SwipeMenuViewController-dummy.m */; };
-		DDDFF15C75DA9468C9A8684B6A70111D /* Pods-swift_variousUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C06CD9F17FFCB1E37E00AAB7AE3B72 /* Pods-swift_variousUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E37362A781482A2993DC681CFA753306 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC493E6477303858FD45CE8756030F /* UIViewExtension.swift */; };
-		F6E4DEF530C0DBAE6EDCA9A721976F26 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0968C4A204B8DA12DB8C1B9227DF959 /* TabView.swift */; };
-		FF63FD182889BE28C253A8D1019982BD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810364D4AC2F33FD5AD6A186C88ECE4 /* UIColorExtension.swift */; };
+		1CB8347DEC7B0B650D3B5A2786333575 /* Pods-swift_variousUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F573B2893388B4DEC65E2984363622 /* Pods-swift_variousUITests-dummy.m */; };
+		4062242F43F8553A46DFA70161788BA4 /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31618D2C7781D5A22DE875D9C2BB19A /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48AB164377E9FF13C6A3BBDE45BF4837 /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97989C425D7E66CB4BD2881C33650D2C /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m */; };
+		4A7E4E6A4B66D4515FCA7158BFB3354A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5EAC2AEB9C8F04F71B39CABD785EEFA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		69DB6DF50EB27CE087A487A61407717F /* Pods-swift_variousUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7423B88A03F165EF41913D6D5C975532 /* Pods-swift_variousUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDFF15C75DA9468C9A8684B6A70111D /* Pods-swift_variousUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7C87934BA2190DDD2FBD139350D1BF /* Pods-swift_variousUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE080A1B359A82958A1E9BD6477040C1 /* Pods-swift_variousUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972C69128F48C457108F25B2C33EE6A9 /* Pods-swift_variousUI-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08BD56D513961BFB0CB123084127204A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DACB9880823AC6A3C72ED7C7B49473A;
-			remoteInfo = SwipeMenuViewController;
-		};
-		CA2285FC9A5C4DF80AD3B6D542F21254 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DACB9880823AC6A3C72ED7C7B49473A;
-			remoteInfo = SwipeMenuViewController;
-		};
-		F306DFC77F5B8A4A4EA120BBDC010FEE /* PBXContainerItemProxy */ = {
+		3CE3095886F127B272D8E15D3B32B146 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -54,72 +29,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038291455D7F105CF01D5D70F1668A1D /* Pods-swift_variousUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-Info.plist"; sourceTree = "<group>"; };
-		0BF46C249FCBD9970874AC2431B91AC0 /* Pods-swift_variousUI-swift_variousUIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift_variousUI-swift_variousUIUITests.modulemap"; sourceTree = "<group>"; };
-		1F7A83BEA6E04B8B6D7E52F535A24437 /* Pods-swift_variousUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-acknowledgements.plist"; sourceTree = "<group>"; };
-		1FE3D8D777D294BA2E65F33F874D92BE /* Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2DCE0F0BA8390ACBC76EBD79CDF326F1 /* Pods-swift_variousUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		00095E7DCF8169D640A65EA6601A875F /* Pods-swift_variousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C7C87934BA2190DDD2FBD139350D1BF /* Pods-swift_variousUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift_variousUITests-umbrella.h"; sourceTree = "<group>"; };
+		17F170E45B5AE26A0EE74C14DF909064 /* Pods-swift_variousUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift_variousUITests.modulemap"; sourceTree = "<group>"; };
+		2512F8A6CBB7E107878B8A0B70F9AF2E /* Pods-swift_variousUI-swift_variousUIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift_variousUI-swift_variousUIUITests.modulemap"; sourceTree = "<group>"; };
+		2DF8FEF8EF00B8465A6A743885F1529F /* Pods-swift_variousUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		392138046070AB41A7052FC5D5B0D52D /* Pods-swift_variousUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift_variousUI-umbrella.h"; sourceTree = "<group>"; };
-		3AF032A9CA0ECA4B1B13C80DB67422DC /* Pods-swift_variousUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI.debug.xcconfig"; sourceTree = "<group>"; };
-		3B076CE56F8C5AC2E983736D8B2AA459 /* Pods-swift_variousUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift_variousUI.modulemap"; sourceTree = "<group>"; };
 		3B1985825F09FE5F560E49F698EBA79B /* Pods_swift_variousUI_swift_variousUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_swift_variousUI_swift_variousUIUITests.framework; path = "Pods-swift_variousUI-swift_variousUIUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EA040FA89D5570F4381E06E936EB3A1 /* Pods-swift_variousUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift_variousUITests-dummy.m"; sourceTree = "<group>"; };
-		4191810FF02BED9C8CDD216765BBB7E7 /* UIEdgeInsetsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsetsExtension.swift; path = Sources/Classes/UIEdgeInsetsExtension.swift; sourceTree = "<group>"; };
-		46DC493E6477303858FD45CE8756030F /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Sources/Classes/UIViewExtension.swift; sourceTree = "<group>"; };
-		4810364D4AC2F33FD5AD6A186C88ECE4 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
-		506D0633F9DBEF43E417E1F8882C1242 /* Pods-swift_variousUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift_variousUI-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5667D56FF69EA8921A31AABB19F7CFA0 /* SwipeMenuViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeMenuViewController.framework; path = SwipeMenuViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C31EFB7992987BB3233538881F2636 /* Pods-swift_variousUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift_variousUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C0E5BF8D26DB7E25B3CB194B401FC66 /* Pods-swift_variousUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C092B901F7AFECF9211ADBCC0181C3C /* Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E387ACEC11910AA97C69A55312350A5 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE1FFC7D42349853AA029B75C0498DF /* Pods_swift_variousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_swift_variousUITests.framework; path = "Pods-swift_variousUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CA1CE1561410D7728A139BA954B7133 /* SwipeMenuViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeMenuViewController-dummy.m"; sourceTree = "<group>"; };
-		66F55AE4741B88C5FCB89D4EAA9EB81B /* SwipeMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeMenuView.swift; path = Sources/Classes/SwipeMenuView.swift; sourceTree = "<group>"; };
-		672DA5CAFA6CEA36DEFEE99FB8984CD0 /* Pods-swift_variousUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		68E86C38A3665779CB95481F239ED8D4 /* SwipeMenuViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeMenuViewController.debug.xcconfig; sourceTree = "<group>"; };
-		7699DF2D80412DEE50C265EAB0728A98 /* ContentScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentScrollView.swift; path = Sources/Classes/ContentScrollView.swift; sourceTree = "<group>"; };
-		842E865212227473726CB5E1F8122FA5 /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		84C86D4CBBFE55C02F72B641ED95BC62 /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift_variousUI-swift_variousUIUITests-dummy.m"; sourceTree = "<group>"; };
-		8904644F111144DDA65B579C2AEE4932 /* SwipeMenuViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeMenuViewController.release.xcconfig; sourceTree = "<group>"; };
+		6737A2C865B8A0F306142DBFCE332186 /* Pods-swift_variousUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7423B88A03F165EF41913D6D5C975532 /* Pods-swift_variousUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift_variousUI-umbrella.h"; sourceTree = "<group>"; };
+		7B519A17220BAFEA7F1C5996BDBE11E1 /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F078B26AD03E6003F54073E88C5FAD8 /* Pods-swift_variousUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-Info.plist"; sourceTree = "<group>"; };
+		86F573B2893388B4DEC65E2984363622 /* Pods-swift_variousUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift_variousUITests-dummy.m"; sourceTree = "<group>"; };
 		91036C749B0F476AC287F6D3DFD3DED8 /* Pods_swift_variousUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_swift_variousUI.framework; path = "Pods-swift_variousUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972C69128F48C457108F25B2C33EE6A9 /* Pods-swift_variousUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift_variousUI-dummy.m"; sourceTree = "<group>"; };
+		97989C425D7E66CB4BD2881C33650D2C /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift_variousUI-swift_variousUIUITests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4D767F24AB64740D8A9CA6C043769BD /* TabItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabItemView.swift; path = Sources/Classes/TabItemView.swift; sourceTree = "<group>"; };
-		A7E95D3D98B10F7A3D38D952D369946E /* SwipeMenuViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeMenuViewController-prefix.pch"; sourceTree = "<group>"; };
-		ABEFB713F8DF355CF876B1988EC44C62 /* Pods-swift_variousUI-swift_variousUIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-swift_variousUIUITests-Info.plist"; sourceTree = "<group>"; };
-		B4C06CD9F17FFCB1E37E00AAB7AE3B72 /* Pods-swift_variousUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift_variousUITests-umbrella.h"; sourceTree = "<group>"; };
-		B8036764FB9D5C6B3E9368F71DD59D1E /* Pods-swift_variousUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI.release.xcconfig"; sourceTree = "<group>"; };
-		B83C6570AC79A188653DE84C6EB7FAEE /* SwipeMenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeMenuViewController.swift; path = Sources/Classes/SwipeMenuViewController.swift; sourceTree = "<group>"; };
-		BE73B2CD647097F3E208EC503AAB6A43 /* Pods-swift_variousUI-swift_variousUIUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-swift_variousUI-swift_variousUIUITests-frameworks.sh"; sourceTree = "<group>"; };
-		C6D0B86C59273D5268E5E4D4283A5BE8 /* Pods-swift_variousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C6D276B43DF2F1006E966B51B698DC75 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9D31619C661BA707916F86CED025CAD /* Pods-swift_variousUI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-swift_variousUI-frameworks.sh"; sourceTree = "<group>"; };
-		CC386272DE6FA57E5CC40763AECDAC4F /* SwipeMenuViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeMenuViewController-Info.plist"; sourceTree = "<group>"; };
-		D0968C4A204B8DA12DB8C1B9227DF959 /* TabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabView.swift; path = Sources/Classes/TabView.swift; sourceTree = "<group>"; };
-		D6FA3A417EF0D5C83399D7F9B0857AA0 /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift_variousUI-swift_variousUIUITests-umbrella.h"; sourceTree = "<group>"; };
-		D948A0E952156AB2CF183DE0D3A6EA1D /* SwipeMenuViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeMenuViewController-umbrella.h"; sourceTree = "<group>"; };
-		DA8DD7FDFD493428B6D5110206C7F505 /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD67970E832FD8DDB4C8F527DD622DE7 /* Pods-swift_variousUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift_variousUITests.modulemap"; sourceTree = "<group>"; };
-		E65E748124D8AEE57334865A69C75299 /* Pods-swift_variousUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUITests-Info.plist"; sourceTree = "<group>"; };
-		EC276662A9571EC4C7D5B69451F87098 /* Pods-swift_variousUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift_variousUI-dummy.m"; sourceTree = "<group>"; };
-		FA1B65026B440D1B7B2CDB77882A152D /* SwipeMenuViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeMenuViewController.modulemap; sourceTree = "<group>"; };
+		B6AA6D061EA282EEBE2C0A509D134CB9 /* Pods-swift_variousUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift_variousUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C78E06E2C562595AA2848E9F0FCCB64F /* Pods-swift_variousUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift_variousUI.modulemap"; sourceTree = "<group>"; };
+		D398E7224342D88DE3D3EE6DA3D4BA1B /* Pods-swift_variousUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift_variousUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E31618D2C7781D5A22DE875D9C2BB19A /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift_variousUI-swift_variousUIUITests-umbrella.h"; sourceTree = "<group>"; };
+		E3D8A4727FD7A2BE4C55EC3670152766 /* Pods-swift_variousUI-swift_variousUIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUI-swift_variousUIUITests-Info.plist"; sourceTree = "<group>"; };
+		EE0B317B7CA3F92B2A3BD80401F1D268 /* Pods-swift_variousUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI.debug.xcconfig"; sourceTree = "<group>"; };
+		F9AC0229DA3E8F3A3BFA63FECEC7E98D /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB1BD95A68A0020F7DA2C29EEFC0A4C7 /* Pods-swift_variousUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift_variousUITests-Info.plist"; sourceTree = "<group>"; };
+		FFBD1FE4C964ABC80C25C9368D3D16CE /* Pods-swift_variousUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift_variousUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08159080B1D8FDCFC4CFFAC7372EA32F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29D2D3E7CF0F6DC0CD3AF37B5ACD9C9A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C374CE9A41604217D24481438540AA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86122BCC4F40D15662D3F17268E39DAD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4BDC4ADFC14EC6C934A04B073C165331 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,50 +69,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A39DF4C15E696A7FB8551AD6ED5543DD /* Frameworks */ = {
+		5162B896D78254DBF52DB3D79D6FACA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCE45A7E8FB49F0C56954990E4080AC5 /* Foundation.framework in Frameworks */,
+				4A7E4E6A4B66D4515FCA7158BFB3354A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E1AA654E4FD3F2006834BC116C03A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAC2AEB9C8F04F71B39CABD785EEFA8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3004BFCB04CF85195E14E172D643B5EA /* Products */ = {
+		3280D99094CD1192403DDCD19BD7C44B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F74A8FD3C28384DB54E6AD1C98BA797 /* Pods-swift_variousUI */,
+				8DDC0A40A3BA7C3C9FC599A1109D7A9A /* Pods-swift_variousUI-swift_variousUIUITests */,
+				F10D83631EC0D5FCBA685AF04F280226 /* Pods-swift_variousUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F74A8FD3C28384DB54E6AD1C98BA797 /* Pods-swift_variousUI */ = {
+			isa = PBXGroup;
+			children = (
+				C78E06E2C562595AA2848E9F0FCCB64F /* Pods-swift_variousUI.modulemap */,
+				D398E7224342D88DE3D3EE6DA3D4BA1B /* Pods-swift_variousUI-acknowledgements.markdown */,
+				3C0E5BF8D26DB7E25B3CB194B401FC66 /* Pods-swift_variousUI-acknowledgements.plist */,
+				972C69128F48C457108F25B2C33EE6A9 /* Pods-swift_variousUI-dummy.m */,
+				7F078B26AD03E6003F54073E88C5FAD8 /* Pods-swift_variousUI-Info.plist */,
+				7423B88A03F165EF41913D6D5C975532 /* Pods-swift_variousUI-umbrella.h */,
+				EE0B317B7CA3F92B2A3BD80401F1D268 /* Pods-swift_variousUI.debug.xcconfig */,
+				FFBD1FE4C964ABC80C25C9368D3D16CE /* Pods-swift_variousUI.release.xcconfig */,
+			);
+			name = "Pods-swift_variousUI";
+			path = "Target Support Files/Pods-swift_variousUI";
+			sourceTree = "<group>";
+		};
+		8DDC0A40A3BA7C3C9FC599A1109D7A9A /* Pods-swift_variousUI-swift_variousUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2512F8A6CBB7E107878B8A0B70F9AF2E /* Pods-swift_variousUI-swift_variousUIUITests.modulemap */,
+				F9AC0229DA3E8F3A3BFA63FECEC7E98D /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.markdown */,
+				7B519A17220BAFEA7F1C5996BDBE11E1 /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.plist */,
+				97989C425D7E66CB4BD2881C33650D2C /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m */,
+				E3D8A4727FD7A2BE4C55EC3670152766 /* Pods-swift_variousUI-swift_variousUIUITests-Info.plist */,
+				E31618D2C7781D5A22DE875D9C2BB19A /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h */,
+				4E387ACEC11910AA97C69A55312350A5 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */,
+				4C092B901F7AFECF9211ADBCC0181C3C /* Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig */,
+			);
+			name = "Pods-swift_variousUI-swift_variousUIUITests";
+			path = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests";
+			sourceTree = "<group>";
+		};
+		AB2C5E51CDF88831F99AAEA3728AE75A /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				91036C749B0F476AC287F6D3DFD3DED8 /* Pods_swift_variousUI.framework */,
 				3B1985825F09FE5F560E49F698EBA79B /* Pods_swift_variousUI_swift_variousUIUITests.framework */,
 				5BE1FFC7D42349853AA029B75C0498DF /* Pods_swift_variousUITests.framework */,
-				5667D56FF69EA8921A31AABB19F7CFA0 /* SwipeMenuViewController.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3551B034F7DFB5E3F6EF8638FF929581 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DF4E731C20B1014827839B4FDF4BB80E /* SwipeMenuViewController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		840AD67A69C3F0F7CE342F23B1E3DE2A /* Pods-swift_variousUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DD67970E832FD8DDB4C8F527DD622DE7 /* Pods-swift_variousUITests.modulemap */,
-				58C31EFB7992987BB3233538881F2636 /* Pods-swift_variousUITests-acknowledgements.markdown */,
-				2DCE0F0BA8390ACBC76EBD79CDF326F1 /* Pods-swift_variousUITests-acknowledgements.plist */,
-				3EA040FA89D5570F4381E06E936EB3A1 /* Pods-swift_variousUITests-dummy.m */,
-				E65E748124D8AEE57334865A69C75299 /* Pods-swift_variousUITests-Info.plist */,
-				B4C06CD9F17FFCB1E37E00AAB7AE3B72 /* Pods-swift_variousUITests-umbrella.h */,
-				672DA5CAFA6CEA36DEFEE99FB8984CD0 /* Pods-swift_variousUITests.debug.xcconfig */,
-				C6D0B86C59273D5268E5E4D4283A5BE8 /* Pods-swift_variousUITests.release.xcconfig */,
-			);
-			name = "Pods-swift_variousUITests";
-			path = "Target Support Files/Pods-swift_variousUITests";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -182,48 +148,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CBC59B0D1DC077ECEF3E3C3B68D40D39 /* Pods-swift_variousUI-swift_variousUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0BF46C249FCBD9970874AC2431B91AC0 /* Pods-swift_variousUI-swift_variousUIUITests.modulemap */,
-				842E865212227473726CB5E1F8122FA5 /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.markdown */,
-				DA8DD7FDFD493428B6D5110206C7F505 /* Pods-swift_variousUI-swift_variousUIUITests-acknowledgements.plist */,
-				84C86D4CBBFE55C02F72B641ED95BC62 /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m */,
-				BE73B2CD647097F3E208EC503AAB6A43 /* Pods-swift_variousUI-swift_variousUIUITests-frameworks.sh */,
-				ABEFB713F8DF355CF876B1988EC44C62 /* Pods-swift_variousUI-swift_variousUIUITests-Info.plist */,
-				D6FA3A417EF0D5C83399D7F9B0857AA0 /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h */,
-				C6D276B43DF2F1006E966B51B698DC75 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */,
-				1FE3D8D777D294BA2E65F33F874D92BE /* Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig */,
-			);
-			name = "Pods-swift_variousUI-swift_variousUIUITests";
-			path = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests";
-			sourceTree = "<group>";
-		};
-		CEF8929FBA1C3B248A75BF9A3D68BD36 /* Pods-swift_variousUI */ = {
-			isa = PBXGroup;
-			children = (
-				3B076CE56F8C5AC2E983736D8B2AA459 /* Pods-swift_variousUI.modulemap */,
-				506D0633F9DBEF43E417E1F8882C1242 /* Pods-swift_variousUI-acknowledgements.markdown */,
-				1F7A83BEA6E04B8B6D7E52F535A24437 /* Pods-swift_variousUI-acknowledgements.plist */,
-				EC276662A9571EC4C7D5B69451F87098 /* Pods-swift_variousUI-dummy.m */,
-				C9D31619C661BA707916F86CED025CAD /* Pods-swift_variousUI-frameworks.sh */,
-				038291455D7F105CF01D5D70F1668A1D /* Pods-swift_variousUI-Info.plist */,
-				392138046070AB41A7052FC5D5B0D52D /* Pods-swift_variousUI-umbrella.h */,
-				3AF032A9CA0ECA4B1B13C80DB67422DC /* Pods-swift_variousUI.debug.xcconfig */,
-				B8036764FB9D5C6B3E9368F71DD59D1E /* Pods-swift_variousUI.release.xcconfig */,
-			);
-			name = "Pods-swift_variousUI";
-			path = "Target Support Files/Pods-swift_variousUI";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3551B034F7DFB5E3F6EF8638FF929581 /* Pods */,
-				3004BFCB04CF85195E14E172D643B5EA /* Products */,
-				D232476F8D83A32B57B78403505EA918 /* Targets Support Files */,
+				AB2C5E51CDF88831F99AAEA3728AE75A /* Products */,
+				3280D99094CD1192403DDCD19BD7C44B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,72 +166,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D232476F8D83A32B57B78403505EA918 /* Targets Support Files */ = {
+		F10D83631EC0D5FCBA685AF04F280226 /* Pods-swift_variousUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CEF8929FBA1C3B248A75BF9A3D68BD36 /* Pods-swift_variousUI */,
-				CBC59B0D1DC077ECEF3E3C3B68D40D39 /* Pods-swift_variousUI-swift_variousUIUITests */,
-				840AD67A69C3F0F7CE342F23B1E3DE2A /* Pods-swift_variousUITests */,
+				17F170E45B5AE26A0EE74C14DF909064 /* Pods-swift_variousUITests.modulemap */,
+				B6AA6D061EA282EEBE2C0A509D134CB9 /* Pods-swift_variousUITests-acknowledgements.markdown */,
+				6737A2C865B8A0F306142DBFCE332186 /* Pods-swift_variousUITests-acknowledgements.plist */,
+				86F573B2893388B4DEC65E2984363622 /* Pods-swift_variousUITests-dummy.m */,
+				FB1BD95A68A0020F7DA2C29EEFC0A4C7 /* Pods-swift_variousUITests-Info.plist */,
+				0C7C87934BA2190DDD2FBD139350D1BF /* Pods-swift_variousUITests-umbrella.h */,
+				2DF8FEF8EF00B8465A6A743885F1529F /* Pods-swift_variousUITests.debug.xcconfig */,
+				00095E7DCF8169D640A65EA6601A875F /* Pods-swift_variousUITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DF4E731C20B1014827839B4FDF4BB80E /* SwipeMenuViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7699DF2D80412DEE50C265EAB0728A98 /* ContentScrollView.swift */,
-				66F55AE4741B88C5FCB89D4EAA9EB81B /* SwipeMenuView.swift */,
-				B83C6570AC79A188653DE84C6EB7FAEE /* SwipeMenuViewController.swift */,
-				A4D767F24AB64740D8A9CA6C043769BD /* TabItemView.swift */,
-				D0968C4A204B8DA12DB8C1B9227DF959 /* TabView.swift */,
-				4810364D4AC2F33FD5AD6A186C88ECE4 /* UIColorExtension.swift */,
-				4191810FF02BED9C8CDD216765BBB7E7 /* UIEdgeInsetsExtension.swift */,
-				46DC493E6477303858FD45CE8756030F /* UIViewExtension.swift */,
-				ECD7FD1F25FBB96405B4C4515B2B9E7F /* Support Files */,
-			);
-			name = SwipeMenuViewController;
-			path = SwipeMenuViewController;
-			sourceTree = "<group>";
-		};
-		ECD7FD1F25FBB96405B4C4515B2B9E7F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA1B65026B440D1B7B2CDB77882A152D /* SwipeMenuViewController.modulemap */,
-				5CA1CE1561410D7728A139BA954B7133 /* SwipeMenuViewController-dummy.m */,
-				CC386272DE6FA57E5CC40763AECDAC4F /* SwipeMenuViewController-Info.plist */,
-				A7E95D3D98B10F7A3D38D952D369946E /* SwipeMenuViewController-prefix.pch */,
-				D948A0E952156AB2CF183DE0D3A6EA1D /* SwipeMenuViewController-umbrella.h */,
-				68E86C38A3665779CB95481F239ED8D4 /* SwipeMenuViewController.debug.xcconfig */,
-				8904644F111144DDA65B579C2AEE4932 /* SwipeMenuViewController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwipeMenuViewController";
+			name = "Pods-swift_variousUITests";
+			path = "Target Support Files/Pods-swift_variousUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26D405FD310853E1D9176FB3DB390EAC /* Headers */ = {
+		5BB32C6661AB6CEC8EDF1802C4EFC2BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23927711895669357A624B6274C7B486 /* SwipeMenuViewController-umbrella.h in Headers */,
+				69DB6DF50EB27CE087A487A61407717F /* Pods-swift_variousUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8EB1B3F18DED88BE94118BFBC40153E /* Headers */ = {
+		906FCD68AACF517F5F590B7F36B62709 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C65D26B40AE8EDE6B6D841761934D1 /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E8B29088C6F56E5C6EDC5DEF3E7DE0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F513300FB235FB6CF022C49417E5AB2 /* Pods-swift_variousUI-umbrella.h in Headers */,
+				4062242F43F8553A46DFA70161788BA4 /* Pods-swift_variousUI-swift_variousUIUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,44 +224,25 @@
 			buildRules = (
 			);
 			dependencies = (
-				686465F7505B21B90F718595B721E5D0 /* PBXTargetDependency */,
+				C38961F8713AE2B1899DC5A9983CC270 /* PBXTargetDependency */,
 			);
 			name = "Pods-swift_variousUITests";
 			productName = "Pods-swift_variousUITests";
 			productReference = 5BE1FFC7D42349853AA029B75C0498DF /* Pods_swift_variousUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2DACB9880823AC6A3C72ED7C7B49473A /* SwipeMenuViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C3D8E8FBA3C7321B9090D88DD887914 /* Build configuration list for PBXNativeTarget "SwipeMenuViewController" */;
-			buildPhases = (
-				26D405FD310853E1D9176FB3DB390EAC /* Headers */,
-				F0467B5C0466FC2BF593427338499141 /* Sources */,
-				08159080B1D8FDCFC4CFFAC7372EA32F /* Frameworks */,
-				DC8FC5D9C56CEC714AC05EDD847FE395 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwipeMenuViewController;
-			productName = SwipeMenuViewController;
-			productReference = 5667D56FF69EA8921A31AABB19F7CFA0 /* SwipeMenuViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4530CE8AF3FCAA4B405CA431C3B27488 /* Pods-swift_variousUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 335CB6A9E4E2D7DC8E6FC51F6B64ACF0 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI" */;
+			buildConfigurationList = AC4BCA3375E62853F9A2D6D6DBEB0529 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI" */;
 			buildPhases = (
-				D0E8B29088C6F56E5C6EDC5DEF3E7DE0 /* Headers */,
-				4B6764FFB62440359CC148985AC63301 /* Sources */,
-				2C374CE9A41604217D24481438540AA4 /* Frameworks */,
-				BBF31A8992F7F14B035C2747462CC6BF /* Resources */,
+				5BB32C6661AB6CEC8EDF1802C4EFC2BF /* Headers */,
+				A594DDCB25CD653EFC1004F188BE938F /* Sources */,
+				E8E1AA654E4FD3F2006834BC116C03A0 /* Frameworks */,
+				FA11EB956A6EB493A0DC9177543E64D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48E8ED4DB086815AB9A7EC3E0CE0599C /* PBXTargetDependency */,
 			);
 			name = "Pods-swift_variousUI";
 			productName = "Pods-swift_variousUI";
@@ -373,17 +251,16 @@
 		};
 		FC78BD2E2E2BAB8C6DA664754F2785FD /* Pods-swift_variousUI-swift_variousUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CCA1C1D65222263304E5BF30AB35DE0 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI-swift_variousUIUITests" */;
+			buildConfigurationList = 0DB6128159389FBC84438DF7F5FFED20 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI-swift_variousUIUITests" */;
 			buildPhases = (
-				B8EB1B3F18DED88BE94118BFBC40153E /* Headers */,
-				B12DBE9DD4E821A1DEA78CDB6953E0FD /* Sources */,
-				A39DF4C15E696A7FB8551AD6ED5543DD /* Frameworks */,
-				65675DF0D0F3B451D3803B35F1791890 /* Resources */,
+				906FCD68AACF517F5F590B7F36B62709 /* Headers */,
+				84922BD52D0E2B8EA6B585BB633E45B7 /* Sources */,
+				5162B896D78254DBF52DB3D79D6FACA4 /* Frameworks */,
+				1EE0D633FDC10F34920230B1EDD86290 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD95BB26715E1DB9C4C67405B7F05B04 /* PBXTargetDependency */,
 			);
 			name = "Pods-swift_variousUI-swift_variousUIUITests";
 			productName = "Pods-swift_variousUI-swift_variousUIUITests";
@@ -400,7 +277,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -408,20 +285,19 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3004BFCB04CF85195E14E172D643B5EA /* Products */;
+			productRefGroup = AB2C5E51CDF88831F99AAEA3728AE75A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4530CE8AF3FCAA4B405CA431C3B27488 /* Pods-swift_variousUI */,
 				FC78BD2E2E2BAB8C6DA664754F2785FD /* Pods-swift_variousUI-swift_variousUIUITests */,
 				246FAD63ED03D0F3E8C9168284C7E18A /* Pods-swift_variousUITests */,
-				2DACB9880823AC6A3C72ED7C7B49473A /* SwipeMenuViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65675DF0D0F3B451D3803B35F1791890 /* Resources */ = {
+		1EE0D633FDC10F34920230B1EDD86290 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,14 +311,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBF31A8992F7F14B035C2747462CC6BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC8FC5D9C56CEC714AC05EDD847FE395 /* Resources */ = {
+		FA11EB956A6EB493A0DC9177543E64D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,19 +321,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B6764FFB62440359CC148985AC63301 /* Sources */ = {
+		84922BD52D0E2B8EA6B585BB633E45B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412EAA8D1293AE8272E6B78978C2B555 /* Pods-swift_variousUI-dummy.m in Sources */,
+				48AB164377E9FF13C6A3BBDE45BF4837 /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B12DBE9DD4E821A1DEA78CDB6953E0FD /* Sources */ = {
+		A594DDCB25CD653EFC1004F188BE938F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA0CDF35112B8AB87205B587947A742B /* Pods-swift_variousUI-swift_variousUIUITests-dummy.m in Sources */,
+				DE080A1B359A82958A1E9BD6477040C1 /* Pods-swift_variousUI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,49 +345,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0467B5C0466FC2BF593427338499141 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8BCD21052B6E65DD4E1C1CB00969721 /* ContentScrollView.swift in Sources */,
-				B46682AFD3AF846DE969FCFAEB90BEC0 /* SwipeMenuView.swift in Sources */,
-				DDD8609251AFED79B8F7532E3A206F05 /* SwipeMenuViewController-dummy.m in Sources */,
-				9E97897CB645D4A0ED10AF87A1226193 /* SwipeMenuViewController.swift in Sources */,
-				77B9153709D33EEAC012E34D88C1E142 /* TabItemView.swift in Sources */,
-				F6E4DEF530C0DBAE6EDCA9A721976F26 /* TabView.swift in Sources */,
-				FF63FD182889BE28C253A8D1019982BD /* UIColorExtension.swift in Sources */,
-				8D1CE5000597A547F432AE840A388D95 /* UIEdgeInsetsExtension.swift in Sources */,
-				E37362A781482A2993DC681CFA753306 /* UIViewExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48E8ED4DB086815AB9A7EC3E0CE0599C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwipeMenuViewController;
-			target = 2DACB9880823AC6A3C72ED7C7B49473A /* SwipeMenuViewController */;
-			targetProxy = CA2285FC9A5C4DF80AD3B6D542F21254 /* PBXContainerItemProxy */;
-		};
-		686465F7505B21B90F718595B721E5D0 /* PBXTargetDependency */ = {
+		C38961F8713AE2B1899DC5A9983CC270 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-swift_variousUI";
 			target = 4530CE8AF3FCAA4B405CA431C3B27488 /* Pods-swift_variousUI */;
-			targetProxy = F306DFC77F5B8A4A4EA120BBDC010FEE /* PBXContainerItemProxy */;
-		};
-		CD95BB26715E1DB9C4C67405B7F05B04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwipeMenuViewController;
-			target = 2DACB9880823AC6A3C72ED7C7B49473A /* SwipeMenuViewController */;
-			targetProxy = 08BD56D513961BFB0CB123084127204A /* PBXContainerItemProxy */;
+			targetProxy = 3CE3095886F127B272D8E15D3B32B146 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3DF7ED0B214EE1888D00AA26ECDF6DA0 /* Release */ = {
+		0EDC7D88BA5EFB7555EADCB87D8D295B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8036764FB9D5C6B3E9368F71DD59D1E /* Pods-swift_variousUI.release.xcconfig */;
+			baseConfigurationReference = 4C092B901F7AFECF9211ADBCC0181C3C /* Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -531,7 +372,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-swift_variousUI/Pods-swift_variousUI-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,7 +381,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swift_variousUI/Pods-swift_variousUI.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -554,6 +395,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		35DED8DC5EE0290EB519B95ECE74E792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E387ACEC11910AA97C69A55312350A5 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -614,6 +493,44 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		5783ED3EEB35F579ECFEFF0E8748D5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0B317B7CA3F92B2A3BD80401F1D268 /* Pods-swift_variousUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift_variousUI/Pods-swift_variousUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift_variousUI/Pods-swift_variousUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -679,80 +596,9 @@
 			};
 			name = Debug;
 		};
-		880821F0EBE3077CA6CC933B9D82B238 /* Release */ = {
+		9BFBB97AF34AEDF5EF527603E3BF551B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8904644F111144DDA65B579C2AEE4932 /* SwipeMenuViewController.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeMenuViewController/SwipeMenuViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeMenuViewController/SwipeMenuViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwipeMenuViewController/SwipeMenuViewController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeMenuViewController;
-				PRODUCT_NAME = SwipeMenuViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		929CF96F7ECA7E44069DAAE364ED0FA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68E86C38A3665779CB95481F239ED8D4 /* SwipeMenuViewController.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeMenuViewController/SwipeMenuViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeMenuViewController/SwipeMenuViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwipeMenuViewController/SwipeMenuViewController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeMenuViewController;
-				PRODUCT_NAME = SwipeMenuViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A70E745F408B23A7457BFFDE7BDDCD9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AF032A9CA0ECA4B1B13C80DB67422DC /* Pods-swift_variousUI.debug.xcconfig */;
+			baseConfigurationReference = FFBD1FE4C964ABC80C25C9368D3D16CE /* Pods-swift_variousUI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -783,52 +629,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		C7E7BEC5D88AD976A1F0499799243F0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6D276B43DF2F1006E966B51B698DC75 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		DBCBC2506BAAE3371B6BA293792E87B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6D0B86C59273D5268E5E4D4283A5BE8 /* Pods-swift_variousUITests.release.xcconfig */;
+			baseConfigurationReference = 00095E7DCF8169D640A65EA6601A875F /* Pods-swift_variousUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -865,48 +674,9 @@
 			};
 			name = Release;
 		};
-		DCEE481467C8FD895C96D022E90593C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FE3D8D777D294BA2E65F33F874D92BE /* Pods-swift_variousUI-swift_variousUIUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E6778B601C0DED42D99D259F6A3E3889 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 672DA5CAFA6CEA36DEFEE99FB8984CD0 /* Pods-swift_variousUITests.debug.xcconfig */;
+			baseConfigurationReference = 2DF8FEF8EF00B8465A6A743885F1529F /* Pods-swift_variousUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -945,20 +715,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C3D8E8FBA3C7321B9090D88DD887914 /* Build configuration list for PBXNativeTarget "SwipeMenuViewController" */ = {
+		0DB6128159389FBC84438DF7F5FFED20 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI-swift_variousUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				929CF96F7ECA7E44069DAAE364ED0FA0 /* Debug */,
-				880821F0EBE3077CA6CC933B9D82B238 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		335CB6A9E4E2D7DC8E6FC51F6B64ACF0 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A70E745F408B23A7457BFFDE7BDDCD9F /* Debug */,
-				3DF7ED0B214EE1888D00AA26ECDF6DA0 /* Release */,
+				35DED8DC5EE0290EB519B95ECE74E792 /* Debug */,
+				0EDC7D88BA5EFB7555EADCB87D8D295B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -972,11 +733,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CCA1C1D65222263304E5BF30AB35DE0 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI-swift_variousUIUITests" */ = {
+		AC4BCA3375E62853F9A2D6D6DBEB0529 /* Build configuration list for PBXNativeTarget "Pods-swift_variousUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7E7BEC5D88AD976A1F0499799243F0A /* Debug */,
-				DCEE481467C8FD895C96D022E90593C1 /* Release */,
+				5783ED3EEB35F579ECFEFF0E8748D5D2 /* Debug */,
+				9BFBB97AF34AEDF5EF527603E3BF551B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

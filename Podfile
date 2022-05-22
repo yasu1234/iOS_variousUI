@@ -5,8 +5,6 @@ target 'swift_variousUI' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'SwipeMenuViewController'
-
   # Pods for swift_variousUI
 
   target 'swift_variousUITests' do
