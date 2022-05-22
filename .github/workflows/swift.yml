@@ -19,7 +19,7 @@ jobs:
       run: xcodebuild -version
     - name: Build
       run: xcodebuild
-           -scheme Swift-github-actions
+           -scheme iOS_variousUI
            -sdk iphonesimulator
            -configuration Debug
            build
