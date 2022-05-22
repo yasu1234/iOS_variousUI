@@ -19,3 +19,10 @@ jobs:
       run: xcodebuild -version
     - name: Build
       run: xcodebuild -sdk iphonesimulator -configuration Debug build
+    - name: Cache CocoaPods files
+      uses: actions/cache@preview
+      with:
+        path: Pods
+        key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-pods-
