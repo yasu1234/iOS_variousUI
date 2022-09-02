@@ -1,9 +1,20 @@
 import UIKit
 
 class CollectionViewController: UIViewController {
-    
+    @IBOutlet private weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        collectionView.delegate = self
+    }
+}
+
+extension CollectionViewController {
+    private func pushPencilKitViewController() {
+        if #available(iOS 14.0, *) {
+            let controller = PencilKitViewController.newInstance()
+            navigationController?.pushViewController(controller, animated: true)
+        }
     }
 }
 
@@ -17,6 +28,14 @@ extension CollectionViewController: UICollectionViewDataSource {
         testCell.numberName = String(indexPath.row)
                 
         return testCell
+    }
+}
+
+extension CollectionViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            pushPencilKitViewController()
+        }
     }
 }
 
@@ -43,6 +62,10 @@ extension CollectionViewController: UICollectionViewDelegateFlowLayout {
         
         return CGSize(width: cellSize, height: 150)
     }
+}
+
+extension CollectionViewController {
+    
 }
 
 extension CollectionViewController: StoryboardInstance {
