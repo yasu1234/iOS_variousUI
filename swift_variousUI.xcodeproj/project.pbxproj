@@ -192,7 +192,7 @@
 			children = (
 				D2A8C51628341E2F00AFC23F /* Base */,
 				D2848B1A28C2487300D64710 /* Pencil */,
-				D2AC13D9253B69FE007EE06A /* Weather */,
+				D2AC13D9253B69FE007EE06A /* CollectionView */,
 				D2AC13D6253360C2007EE06A /* Login */,
 				D21855C826E3AF7D00DF7F29 /* Protocol */,
 				D2AC139E2531E8C0007EE06A /* AppDelegate.swift */,
@@ -237,14 +237,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		D2AC13D9253B69FE007EE06A /* Weather */ = {
+		D2AC13D9253B69FE007EE06A /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				D2AC13D7253B6995007EE06A /* CollectionViewController.swift */,
 				D2AC13DE253B6B5F007EE06A /* Collection.storyboard */,
 				D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */,
 			);
-			path = Weather;
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
