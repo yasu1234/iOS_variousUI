@@ -16,6 +16,11 @@ extension CollectionViewController {
             navigationController?.pushViewController(controller, animated: true)
         }
     }
+    
+    private func pushCompositionalLayoutsViewController() {
+        let controller = CompositionalLayoutsViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 extension CollectionViewController: UICollectionViewDataSource {
@@ -35,6 +40,8 @@ extension CollectionViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == 0 {
             pushPencilKitViewController()
+        } else if indexPath.row == 1 {
+            pushCompositionalLayoutsViewController()
         }
     }
 }

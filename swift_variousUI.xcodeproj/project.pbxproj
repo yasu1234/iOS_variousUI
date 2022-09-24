@@ -13,6 +13,12 @@
 		D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */; };
 		D2848B1C28C248A400D64710 /* PencilKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2848B1B28C248A400D64710 /* PencilKitViewController.swift */; };
 		D2848B1E28C2492E00D64710 /* Pencil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2848B1D28C2492E00D64710 /* Pencil.storyboard */; };
+		D2A353E728DDF55100F5786A /* CompositionalLayoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */; };
+		D2A353E928DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353E828DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift */; };
+		D2A353EC28DF0EF800F5786A /* UICollectionView+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353EB28DF0EF800F5786A /* UICollectionView+Registration.swift */; };
+		D2A353EF28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353ED28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.swift */; };
+		D2A353F028DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A353EE28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib */; };
+		D2A353F228DF2FA400F5786A /* CompositionalLayoutsCollectionViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353F128DF2FA400F5786A /* CompositionalLayoutsCollectionViewInteractor.swift */; };
 		D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */; };
 		D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A8C5122831196200AFC23F /* LoginCustomView.xib */; };
 		D2A8C51528311A4B00AFC23F /* LoginCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */; };
@@ -61,6 +67,12 @@
 		D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		D2848B1B28C248A400D64710 /* PencilKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitViewController.swift; sourceTree = "<group>"; };
 		D2848B1D28C2492E00D64710 /* Pencil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pencil.storyboard; sourceTree = "<group>"; };
+		D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsViewController.swift; sourceTree = "<group>"; };
+		D2A353E828DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsCollectionView.swift; sourceTree = "<group>"; };
+		D2A353EB28DF0EF800F5786A /* UICollectionView+Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Registration.swift"; sourceTree = "<group>"; };
+		D2A353ED28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsCollectionCell.swift; sourceTree = "<group>"; };
+		D2A353EE28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompositionalLayoutsCollectionCell.xib; sourceTree = "<group>"; };
+		D2A353F128DF2FA400F5786A /* CompositionalLayoutsCollectionViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsCollectionViewInteractor.swift; sourceTree = "<group>"; };
 		D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomViewController.swift; sourceTree = "<group>"; };
 		D2A8C5122831196200AFC23F /* LoginCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginCustomView.xib; sourceTree = "<group>"; };
 		D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomView.swift; sourceTree = "<group>"; };
@@ -157,6 +169,14 @@
 			path = Pencil;
 			sourceTree = "<group>";
 		};
+		D2A353EA28DF0EDE00F5786A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D2A353EB28DF0EF800F5786A /* UICollectionView+Registration.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D2A8C51628341E2F00AFC23F /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +210,7 @@
 		D2AC139D2531E8C0007EE06A /* swift_variousUI */ = {
 			isa = PBXGroup;
 			children = (
+				D2A353EA28DF0EDE00F5786A /* Extension */,
 				D2A8C51628341E2F00AFC23F /* Base */,
 				D2848B1A28C2487300D64710 /* Pencil */,
 				D2AC13D9253B69FE007EE06A /* CollectionView */,
@@ -243,6 +264,11 @@
 				D2AC13D7253B6995007EE06A /* CollectionViewController.swift */,
 				D2AC13DE253B6B5F007EE06A /* Collection.storyboard */,
 				D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */,
+				D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */,
+				D2A353E828DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift */,
+				D2A353F128DF2FA400F5786A /* CompositionalLayoutsCollectionViewInteractor.swift */,
+				D2A353ED28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.swift */,
+				D2A353EE28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -359,6 +385,7 @@
 				D2848B1E28C2492E00D64710 /* Pencil.storyboard in Resources */,
 				D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */,
 				D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */,
+				D2A353F028DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
 				D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */,
 			);
@@ -455,14 +482,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */,
+				D2A353EF28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.swift in Sources */,
 				D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */,
 				D2A8C51828341E4B00AFC23F /* MainTabBarController.swift in Sources */,
+				D2A353E728DDF55100F5786A /* CompositionalLayoutsViewController.swift in Sources */,
+				D2A353E928DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift in Sources */,
 				D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */,
+				D2A353F228DF2FA400F5786A /* CompositionalLayoutsCollectionViewInteractor.swift in Sources */,
 				D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */,
 				D2A8C51528311A4B00AFC23F /* LoginCustomView.swift in Sources */,
 				D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */,
 				D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */,
 				D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */,
+				D2A353EC28DF0EF800F5786A /* UICollectionView+Registration.swift in Sources */,
 				D2848B1C28C248A400D64710 /* PencilKitViewController.swift in Sources */,
 				D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */,
 				D2AC13D325329DB7007EE06A /* LoginForm.swift in Sources */,
