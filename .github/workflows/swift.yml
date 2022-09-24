@@ -1,4 +1,4 @@
-name: iOS_variousUI
+name: Swift
 
 on:
   push:
@@ -13,16 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Select Xcode version
-      run: sudo xcode-select -s '/Applications/Xcode_13.2.1.app/Contents/Developer'
-    - name: Show Xcode version
-      run: xcodebuild -version
     - name: Build
-      run: xcodebuild -sdk iphonesimulator -configuration Debug build
-    - name: Cache CocoaPods files
-      uses: actions/cache@preview
-      with:
-        path: Pods
-        key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-pods-
+      run: swift build -v
+    - name: Run tests
+      run: swift test -v
