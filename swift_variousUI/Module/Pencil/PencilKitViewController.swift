@@ -27,9 +27,7 @@ class PencilKitViewController: UIViewController {
 extension PencilKitViewController {
     private func setupCanvasView() {
         pencilKit.tool = PKInkingTool(.pen, color: .black, width: 30)
-        if #available(iOS 14.0, *) {
-            pencilKit.drawingPolicy = .anyInput
-        }
+        pencilKit.drawingPolicy = .anyInput
         
         pencilKit.isOpaque = true
         pencilKit.backgroundColor = .clear
@@ -54,5 +52,3 @@ extension PencilKitViewController: StoryboardInstance {
         return String(describing: PencilKitViewController.self)
     }
 }
-
-

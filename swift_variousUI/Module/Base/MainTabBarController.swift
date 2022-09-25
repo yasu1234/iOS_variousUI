@@ -3,12 +3,15 @@ import UIKit
 class MainTabBarController: UITabBarController {
     enum TabType: Int, CaseIterable {
         case collection
+        case tabPager
         
         func controllerInstance() -> UIViewController? {
             switch self {
             case .collection:
                 let controller = CollectionViewController.newInstance()
-                
+                return controller
+            case .tabPager:
+                let controller = TabPagerViewController.newInstance()
                 return controller
             }
         }

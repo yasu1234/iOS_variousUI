@@ -42,7 +42,7 @@ extension CompositionalLayoutsCollectionView {
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 1)
         
         let section = NSCollectionLayoutSection(group: group)
-        section.orthogonalScrollingBehavior = .paging
+//        section.orthogonalScrollingBehavior = .paging
         
         return section
     }
