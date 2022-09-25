@@ -2,10 +2,9 @@
 # platform :ios, '9.0'
 
 target 'swift_variousUI' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for swift_variousUI
+  pod 'Parchment'
 
   target 'swift_variousUITests' do
     inherit! :search_paths

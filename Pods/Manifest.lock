@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: fd4863deab0e6104c1e78b7cf9cf8799c238a70a
+PODS:
+  - Parchment (3.2.0)
+
+DEPENDENCIES:
+  - Parchment
+
+SPEC REPOS:
+  trunk:
+    - Parchment
+
+SPEC CHECKSUMS:
+  Parchment: a43c440b22c8a60f7e0196b74339446d4d1d18ea
+
+PODFILE CHECKSUM: 9699a2f90efc4bd892df8077c420f40593c99d8f
 
 COCOAPODS: 1.9.3
