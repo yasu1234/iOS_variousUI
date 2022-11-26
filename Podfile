@@ -5,6 +5,7 @@ target 'swift_variousUI' do
   use_frameworks!
 
   pod 'Parchment'
+  pod 'TTGSnackbar'
 
   target 'swift_variousUITests' do
     inherit! :search_paths

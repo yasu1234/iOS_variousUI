@@ -1,16 +1,20 @@
 PODS:
   - Parchment (3.2.0)
+  - TTGSnackbar (1.11.1)
 
 DEPENDENCIES:
   - Parchment
+  - TTGSnackbar
 
 SPEC REPOS:
   trunk:
     - Parchment
+    - TTGSnackbar
 
 SPEC CHECKSUMS:
   Parchment: a43c440b22c8a60f7e0196b74339446d4d1d18ea
+  TTGSnackbar: fea91c62637b5662f808a4c3b55f7631cb7e1ef7
 
-PODFILE CHECKSUM: 9699a2f90efc4bd892df8077c420f40593c99d8f
+PODFILE CHECKSUM: 2806829da87a8264a527f8e3f22441471d833929
 
 COCOAPODS: 1.9.3
