@@ -1,10 +1,9 @@
-import Foundation
 import UIKit
 
 class CompositionalLayoutsCollectionView: UICollectionView {
     enum SectionType: CaseIterable {
-        case applianceHorizontal
-        case article
+        case main
+        case sub
     }
     
     override func awakeFromNib() {
@@ -22,9 +21,9 @@ class CompositionalLayoutsCollectionView: UICollectionView {
         collectionViewLayout = UICollectionViewCompositionalLayout { sectionIndex,_ -> NSCollectionLayoutSection? in
             let sectionLayoutKind = SectionType.allCases[sectionIndex]
             switch sectionLayoutKind {
-            case .applianceHorizontal:
+            case .main:
                 return self.generateApplianceHorizontalLayout()
-            case .article:
+            case .sub:
                 return self.generateArticleLayout()
             }
         }
@@ -34,7 +33,7 @@ class CompositionalLayoutsCollectionView: UICollectionView {
 extension CompositionalLayoutsCollectionView {
     private func generateApplianceHorizontalLayout() -> NSCollectionLayoutSection {
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
-                                              heightDimension: .fractionalHeight(2/3))
+                                              heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
         
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
@@ -42,7 +41,9 @@ extension CompositionalLayoutsCollectionView {
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 1)
         
         let section = NSCollectionLayoutSection(group: group)
-//        section.orthogonalScrollingBehavior = .paging
+        section.orthogonalScrollingBehavior = .paging
+//        section.interGroupSpacing = 100
+        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 10, bottom: 10, trailing: 10)
         
         return section
     }
@@ -62,8 +63,10 @@ extension CompositionalLayoutsCollectionView {
         let nestedGroupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
                                                      heightDimension: .fractionalHeight(1))
         let nestedGroup = NSCollectionLayoutGroup.vertical(layoutSize: nestedGroupSize, subitems: [pairGroup, fullArticleItem])
+        nestedGroup.interItemSpacing = .fixed(10.0)
         
         let section = NSCollectionLayoutSection(group: nestedGroup)
+        section.interGroupSpacing = CGFloat(10)
         
         return section
     }

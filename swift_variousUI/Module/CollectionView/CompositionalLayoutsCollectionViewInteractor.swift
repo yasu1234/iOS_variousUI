@@ -20,16 +20,16 @@ extension CompositionalLayoutsCollectionViewInteractor: UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         switch SectionType.allCases[section] {
-        case .applianceHorizontal:
+        case .main:
             return 1
-        case .article:
+        case .sub:
             return 3
         }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         switch SectionType.allCases[indexPath.section] {
-        case .applianceHorizontal:
+        case .main:
             let cell = collectionView
                 .dequeueReusableCell(withReuseIdentifier: String(describing: CompositionalLayoutsCollectionCell.self),
                                      for: indexPath) as? CompositionalLayoutsCollectionCell
@@ -37,7 +37,7 @@ extension CompositionalLayoutsCollectionViewInteractor: UICollectionViewDataSour
                 cell.number = indexPath.row
                 return cell
             }
-        case .article:
+        case .sub:
             let cell = collectionView
                 .dequeueReusableCell(withReuseIdentifier: String(describing: CompositionalLayoutsCollectionCell.self),
                                      for: indexPath) as? CompositionalLayoutsCollectionCell
