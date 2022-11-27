@@ -1,4 +1,5 @@
 import Parchment
+import TTGSnackbar
 import UIKit
 
 class TabPagerViewController: UIViewController {
@@ -13,6 +14,7 @@ class TabPagerViewController: UIViewController {
 extension TabPagerViewController {
     private func setupUI() {
         setupTab()
+        setupSnackBar()
     }
     
     private func setupTab() {
@@ -42,6 +44,20 @@ extension TabPagerViewController {
             pagingViewController.view.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             pagingViewController.view.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
         ])
+    }
+    
+    private func setupSnackBar() {
+        let snackbar = TTGSnackbar(
+            message: "TTGSnackbarTTGSnackbarTTGSnackbarTTGSnackbarTTGSnackbarTTGSnackbar !",
+            duration: .middle
+        )
+        snackbar.cornerRadius = 10
+        snackbar.backgroundColor = UIColor.green
+        snackbar.actionTextColor = UIColor.white
+        snackbar.actionTextFont = UIFont.boldSystemFont(ofSize: 15)
+        snackbar.actionTextNumberOfLines = 2
+        snackbar.animationType = .slideFromTopBackToTop
+        snackbar.show()
     }
 }
 
