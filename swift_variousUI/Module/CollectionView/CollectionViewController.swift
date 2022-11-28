@@ -21,6 +21,11 @@ extension CollectionViewController {
         let controller = CompositionalLayoutsViewController.newInstance()
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    private func pushCalenderViewController() {
+        let controller = CalenderViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 extension CollectionViewController: UICollectionViewDataSource {
@@ -42,6 +47,8 @@ extension CollectionViewController: UICollectionViewDelegate {
             pushPencilKitViewController()
         } else if indexPath.row == 1 {
             pushCompositionalLayoutsViewController()
+        } else if indexPath.row == 2 {
+            pushCalenderViewController()
         }
     }
 }
