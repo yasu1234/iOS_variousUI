@@ -13,6 +13,8 @@
 		D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */; };
 		D258C857293509A400C47252 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258C855293509A400C47252 /* CalendarCell.swift */; };
 		D258C858293509A400C47252 /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D258C856293509A400C47252 /* CalendarCell.xib */; };
+		D27AF33A2974360E00642A0F /* AttributeString.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27AF3392974360E00642A0F /* AttributeString.storyboard */; };
+		D27AF33C2974362A00642A0F /* AttributeStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AF33B2974362A00642A0F /* AttributeStringViewController.swift */; };
 		D2848B1C28C248A400D64710 /* PencilKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2848B1B28C248A400D64710 /* PencilKitViewController.swift */; };
 		D2848B1E28C2492E00D64710 /* Pencil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2848B1D28C2492E00D64710 /* Pencil.storyboard */; };
 		D2A353E728DDF55100F5786A /* CompositionalLayoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */; };
@@ -74,6 +76,8 @@
 		D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		D258C855293509A400C47252 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		D258C856293509A400C47252 /* CalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		D27AF3392974360E00642A0F /* AttributeString.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AttributeString.storyboard; sourceTree = "<group>"; };
+		D27AF33B2974362A00642A0F /* AttributeStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeStringViewController.swift; sourceTree = "<group>"; };
 		D2848B1B28C248A400D64710 /* PencilKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitViewController.swift; sourceTree = "<group>"; };
 		D2848B1D28C2492E00D64710 /* Pencil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pencil.storyboard; sourceTree = "<group>"; };
 		D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +178,15 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		D27AF338297435F500642A0F /* AttributeString */ = {
+			isa = PBXGroup;
+			children = (
+				D27AF3392974360E00642A0F /* AttributeString.storyboard */,
+				D27AF33B2974362A00642A0F /* AttributeStringViewController.swift */,
+			);
+			path = AttributeString;
+			sourceTree = "<group>";
+		};
 		D2848B1A28C2487300D64710 /* Pencil */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +216,7 @@
 		D2A353F728DFF51B00F5786A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				D27AF338297435F500642A0F /* AttributeString */,
 				D2A8C51628341E2F00AFC23F /* Base */,
 				D2AC13D9253B69FE007EE06A /* CollectionView */,
 				D2AC13D6253360C2007EE06A /* Login */,
@@ -422,6 +436,7 @@
 				D2AC13D12532353C007EE06A /* LoginForm.xib in Resources */,
 				D2A353FB28DFF5D200F5786A /* Tab.storyboard in Resources */,
 				D2AC13DF253B6B5F007EE06A /* Collection.storyboard in Resources */,
+				D27AF33A2974360E00642A0F /* AttributeString.storyboard in Resources */,
 				D2848B1E28C2492E00D64710 /* Pencil.storyboard in Resources */,
 				D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */,
 				D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */,
@@ -569,6 +584,7 @@
 				D2A353F228DF2FA400F5786A /* CompositionalLayoutsCollectionViewInteractor.swift in Sources */,
 				D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */,
 				D2A8C51528311A4B00AFC23F /* LoginCustomView.swift in Sources */,
+				D27AF33C2974362A00642A0F /* AttributeStringViewController.swift in Sources */,
 				D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */,
 				D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */,
 				D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */,

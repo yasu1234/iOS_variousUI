@@ -2,12 +2,15 @@ import UIKit
 
 class CollectionViewController: UIViewController {
     @IBOutlet private weak var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         collectionView.delegate = self
     }
 }
+
+// MARK: - Transition
 
 extension CollectionViewController {
     private func pushPencilKitViewController() {
@@ -26,7 +29,14 @@ extension CollectionViewController {
         let controller = CalenderViewController.newInstance()
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    private func pushAttributeStringViewController() {
+        let controller = AttributeStringViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
+
+// MARK: - UICollectionViewDataSource
 
 extension CollectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -41,6 +51,9 @@ extension CollectionViewController: UICollectionViewDataSource {
     }
 }
 
+
+// MARK: - UICollectionViewDelegate
+
 extension CollectionViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == 0 {
@@ -49,6 +62,8 @@ extension CollectionViewController: UICollectionViewDelegate {
             pushCompositionalLayoutsViewController()
         } else if indexPath.row == 2 {
             pushCalenderViewController()
+        } else if indexPath.row == 3 {
+            pushAttributeStringViewController()
         }
     }
 }
