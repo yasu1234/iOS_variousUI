@@ -14,6 +14,28 @@ class AttributeStringViewController: UIViewController {
 
 extension AttributeStringViewController {
     private func setupUI() {
+        setAttributeString()
+    }
+    
+    private func setAttributeString() {
+        let attributeString = NSMutableAttributedString(string: "TEST TEST TEST")
+        
+        let image = UIImage(named: "icon_kuma")!
+        let font: UIFont = .systemFont(ofSize: 17)
+        let size = CGSize(width: 30, height: 30)
+        
+        let attachment = NSTextAttachment()
+        attachment.image = image
+        
+        let y = (font.capHeight - size.height).rounded() / 2
+        attachment.bounds.origin = CGPoint(x: 0, y: y)
+        attachment.bounds.size = size
+        
+        let imageAttribute = NSAttributedString(attachment: attachment)
+        // add image at last
+        attributeString.insert(imageAttribute, at: attributeString.length)
+        
+        attributeStringLabel.attributedText = attributeString
     }
 }
 
