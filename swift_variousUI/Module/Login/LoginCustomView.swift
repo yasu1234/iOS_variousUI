@@ -20,9 +20,28 @@ class LoginCustomView: UIView {
     }
         
     func loadNib() -> Self {
-        let view = UINib(nibName: "LoginCustomView", bundle: nil).instantiate(withOwner: self, options: nil).first as! Self
+        let view = UINib(
+            nibName: "LoginCustomView",
+            bundle: nil
+        ).instantiate(withOwner: self, options: nil).first as! Self
         
         addSubview(view)
+        
+        view.translatesAutoresizingMaskIntoConstraints = false
+        
+        addConstraints(NSLayoutConstraint.constraints(
+            withVisualFormat: "H:|-0-[view]-0-|",
+            options: NSLayoutConstraint.FormatOptions(rawValue: 0),
+            metrics: nil,
+            views: ["view" : view])
+        )
+        
+        addConstraints(NSLayoutConstraint.constraints(
+            withVisualFormat: "V:|-0-[view]-0-|",
+            options: NSLayoutConstraint.FormatOptions(rawValue: 0),
+            metrics: nil,
+            views: ["view" : view])
+        )
         
         return view
     }
