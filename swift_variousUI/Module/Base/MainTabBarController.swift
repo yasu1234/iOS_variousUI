@@ -4,6 +4,7 @@ class MainTabBarController: UITabBarController {
     enum TabType: Int, CaseIterable {
         case collection
         case tabPager
+        case segment
         
         func controllerInstance() -> UIViewController? {
             switch self {
@@ -12,6 +13,9 @@ class MainTabBarController: UITabBarController {
                 return controller
             case .tabPager:
                 let controller = TabPagerViewController.newInstance()
+                return controller
+            case .segment:
+                let controller = SegmentViewController.newInstance()
                 return controller
             }
         }

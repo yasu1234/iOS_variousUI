@@ -16,10 +16,10 @@ extension SegmentViewController {
 }
 
 extension SegmentViewController: StoryboardInstance {
-    static func newInstance() -> LoginCustomViewController {
+    static func newInstance() -> SegmentViewController {
         let controller = UIStoryboard(
-            name:SegmentViewController.storyboardName(),
-            bundle: nil).instantiateViewController(withIdentifier: LoginCustomViewController.identifer()) as! LoginCustomViewController
+            name: SegmentViewController.storyboardName(),
+            bundle: nil).instantiateViewController(withIdentifier: SegmentViewController.identifer()) as! SegmentViewController
         
         return controller
     }
@@ -29,6 +29,6 @@ extension SegmentViewController: StoryboardInstance {
     }
     
     static func identifer() -> String {
-        return String(describing: LoginCustomViewController.self)
+        return String(describing: SegmentViewController.self)
     }
 }
