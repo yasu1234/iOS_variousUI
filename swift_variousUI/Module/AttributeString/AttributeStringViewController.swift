@@ -35,6 +35,13 @@ extension AttributeStringViewController {
         // add image at last
         attributeString.insert(imageAttribute, at: attributeString.length)
         
+        let underlineAttributes: [NSAttributedString.Key: Any] = [
+            .underlineColor: UIColor.blue,
+            .underlineStyle: NSUnderlineStyle.single.rawValue
+        ]
+        
+        attributeString.addAttributes(underlineAttributes, range: NSRange(location: 0, length: 2))
+        
         attributeStringLabel.attributedText = attributeString
     }
 }
