@@ -19,6 +19,7 @@
 		D2848B1E28C2492E00D64710 /* Pencil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2848B1D28C2492E00D64710 /* Pencil.storyboard */; };
 		D2892345299532D1000B1834 /* Segment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2892344299532D1000B1834 /* Segment.storyboard */; };
 		D2892347299532E7000B1834 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2892346299532E7000B1834 /* SegmentViewController.swift */; };
+		D28923492996AB94000B1834 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28923482996AB94000B1834 /* UIView+IBInspectable.swift */; };
 		D2A353E728DDF55100F5786A /* CompositionalLayoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */; };
 		D2A353E928DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353E828DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift */; };
 		D2A353EC28DF0EF800F5786A /* UICollectionView+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353EB28DF0EF800F5786A /* UICollectionView+Registration.swift */; };
@@ -84,6 +85,7 @@
 		D2848B1D28C2492E00D64710 /* Pencil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pencil.storyboard; sourceTree = "<group>"; };
 		D2892344299532D1000B1834 /* Segment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Segment.storyboard; sourceTree = "<group>"; };
 		D2892346299532E7000B1834 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		D28923482996AB94000B1834 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsViewController.swift; sourceTree = "<group>"; };
 		D2A353E828DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsCollectionView.swift; sourceTree = "<group>"; };
 		D2A353EB28DF0EF800F5786A /* UICollectionView+Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Registration.swift"; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				D2A353EB28DF0EF800F5786A /* UICollectionView+Registration.swift */,
+				D28923482996AB94000B1834 /* UIView+IBInspectable.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -608,6 +611,7 @@
 				D258C857293509A400C47252 /* CalendarCell.swift in Sources */,
 				D2848B1C28C248A400D64710 /* PencilKitViewController.swift in Sources */,
 				D2A35481290564A000F5786A /* CalenderCollectionViewInteractor.swift in Sources */,
+				D28923492996AB94000B1834 /* UIView+IBInspectable.swift in Sources */,
 				D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */,
 				D2AC13D325329DB7007EE06A /* LoginForm.swift in Sources */,
 			);
