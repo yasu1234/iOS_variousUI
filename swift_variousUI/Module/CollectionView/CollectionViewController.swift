@@ -34,6 +34,11 @@ extension CollectionViewController {
         let controller = AttributeStringViewController.newInstance()
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    private func pushCameraViewController() {
+        let controller = CameraViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 // MARK: - UICollectionViewDataSource
@@ -64,6 +69,8 @@ extension CollectionViewController: UICollectionViewDelegate {
             pushCalenderViewController()
         } else if indexPath.row == 3 {
             pushAttributeStringViewController()
+        } else if indexPath.row == 4 {
+            pushCameraViewController()
         }
     }
 }
