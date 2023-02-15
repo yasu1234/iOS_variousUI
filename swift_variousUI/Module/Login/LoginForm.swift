@@ -1,6 +1,6 @@
 import UIKit
 
-protocol LoginFormDelegate: class {
+protocol LoginFormDelegate: AnyObject {
     func realLogin(isFirstTap: Bool)
 }
 
