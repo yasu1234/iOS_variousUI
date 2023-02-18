@@ -10,12 +10,15 @@ class MainTabBarController: UITabBarController {
             switch self {
             case .collection:
                 let controller = CollectionViewController.newInstance()
+                controller.title = "Collection"
                 return controller
             case .tabPager:
                 let controller = TabPagerViewController.newInstance()
+                controller.title = "TabPager"
                 return controller
             case .segment:
                 let controller = SegmentViewController.newInstance()
+                controller.title = "Segment"
                 return controller
             }
         }

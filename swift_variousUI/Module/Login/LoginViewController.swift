@@ -62,4 +62,3 @@ extension LoginViewController: StoryboardInstance {
         return String(describing: LoginViewController.self)
     }
 }
-
