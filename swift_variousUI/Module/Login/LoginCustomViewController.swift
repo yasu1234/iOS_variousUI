@@ -17,6 +17,7 @@ extension LoginCustomViewController {
     
     private func setupLoginCustomView() {
         let view = loginCustomView.loadNib()
+        view.setupTextField()
         view.delegate = self
     }
 }

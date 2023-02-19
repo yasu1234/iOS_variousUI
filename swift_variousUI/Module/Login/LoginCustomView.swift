@@ -13,8 +13,6 @@ class LoginCustomView: UIView {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        
-        setupTextField()
     }
     
     override func prepareForInterfaceBuilder() {
@@ -48,7 +46,7 @@ class LoginCustomView: UIView {
         return view
     }
     
-    private func setupTextField() {
+    func setupTextField() {
         // hide cursor when focus. if you want to show cursor, this line should comment out
         loginIdTextField.tintColor = UIColor.clear
     }

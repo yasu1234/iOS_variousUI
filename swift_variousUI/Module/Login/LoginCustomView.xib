@@ -60,7 +60,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="loginButton" destination="Vpb-Mx-TS1" id="NFO-PQ-UcZ"/>
-                <outlet property="loginIdTextField" destination="0fk-Nn-GRC" id="4cJ-0b-7WZ"/>
+                <outlet property="loginIdTextField" destination="0fk-Nn-GRC" id="xRf-J0-r4H"/>
                 <outlet property="passwordTextField" destination="leG-bk-OjV" id="HJJ-Bh-170"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="-95.089285714285708"/>
