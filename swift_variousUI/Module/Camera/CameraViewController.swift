@@ -1,20 +1,28 @@
 import AVFoundation
+import RxCocoa
+import RxSwift
 import UIKit
 
 class CameraViewController: UIViewController {
     @IBOutlet private weak var previewLayerFrame: UIView!
+    @IBOutlet private weak var shutterButton: UIButton!
     
     private var captureSession: AVCaptureSession?
     private var cameraDevice: AVCaptureDevice?
     private var photoOutput: AVCapturePhotoOutput?
     private var previewLayer: AVCaptureVideoPreviewLayer!
     
+    private let disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupData()
+        setupUI()
     }
 }
+
+// MARK: - Data
 
 extension CameraViewController {
     private func setupData() {
@@ -39,11 +47,21 @@ extension CameraViewController {
             return
         }
     }
+    
+    private func takePhoto() {
+        let settings = AVCapturePhotoSettings()
+        settings.flashMode = .auto
+        photoOutput?.capturePhoto(with: settings, delegate: self)
+    }
 }
 
 // MARK: - UI
 
 extension CameraViewController {
+    private func setupUI() {
+        setupButton()
+    }
+    
     private func setupCameraCaptureSession() {
         captureSession = AVCaptureSession()
         captureSession?.beginConfiguration()
@@ -89,6 +107,26 @@ extension CameraViewController {
         previewLayerFrame.layer.addSublayer(previewLayer)
         previewLayerFrame.frame = previewLayer.bounds
         captureSession.startRunning()
+    }
+    
+    private func setupButton() {
+        shutterButton.rx.tap
+            .subscribe { _ in
+                self.takePhoto()
+            }.disposed(by: disposeBag)
+    }
+}
+
+// MARK: - AVCapturePhotoCaptureDelegate
+
+extension CameraViewController: AVCapturePhotoCaptureDelegate {
+    func photoOutput(_ output: AVCapturePhotoOutput,
+                     didFinishProcessingPhoto photo: AVCapturePhoto,
+                     error: Error?
+    ) {
+        if let imageData = photo.fileDataRepresentation() {
+            let uiImage = UIImage(data: imageData)
+        }
     }
 }
 
