@@ -6,6 +6,8 @@ target 'swift_variousUI' do
 
   pod 'Parchment'
   pod 'TTGSnackbar'
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'swift_variousUITests' do
     inherit! :search_paths
