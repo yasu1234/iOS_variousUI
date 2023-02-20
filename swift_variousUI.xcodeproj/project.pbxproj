@@ -11,6 +11,7 @@
 		2514176AF5BB22D4334D1B24 /* Pods_swift_variousUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95243445F2198023ACBAD2EE /* Pods_swift_variousUITests.framework */; };
 		4845F931FFAB661BC4041312 /* Pods_swift_variousUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7736294E72827837461ED5CE /* Pods_swift_variousUI.framework */; };
 		D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */; };
+		D228A61429A3C56200A3C0DA /* PasswordSecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D228A61329A3C56200A3C0DA /* PasswordSecureTextField.swift */; };
 		D258C857293509A400C47252 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258C855293509A400C47252 /* CalendarCell.swift */; };
 		D258C858293509A400C47252 /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D258C856293509A400C47252 /* CalendarCell.xib */; };
 		D260BECD2999F81700AC18F2 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260BECC2999F81700AC18F2 /* UIViewController+Keyboard.swift */; };
@@ -80,6 +81,7 @@
 		95243445F2198023ACBAD2EE /* Pods_swift_variousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_variousUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8AC913B5D7CE20CA9CF6AA /* Pods-swift_variousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_variousUITests.release.xcconfig"; path = "Target Support Files/Pods-swift_variousUITests/Pods-swift_variousUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D21855C926E3C13800DF7F29 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		D228A61329A3C56200A3C0DA /* PasswordSecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureTextField.swift; sourceTree = "<group>"; };
 		D258C855293509A400C47252 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		D258C856293509A400C47252 /* CalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
 		D260BECC2999F81700AC18F2 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
@@ -334,6 +336,7 @@
 				D2A8C510283118A500AFC23F /* LoginCustomViewController.swift */,
 				D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */,
 				D2A8C5122831196200AFC23F /* LoginCustomView.xib */,
+				D228A61329A3C56200A3C0DA /* PasswordSecureTextField.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -626,6 +629,7 @@
 				D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */,
 				D260BED0299BCB4700AC18F2 /* CameraViewController.swift in Sources */,
 				D2892347299532E7000B1834 /* SegmentViewController.swift in Sources */,
+				D228A61429A3C56200A3C0DA /* PasswordSecureTextField.swift in Sources */,
 				D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */,
 				D2A353EC28DF0EF800F5786A /* UICollectionView+Registration.swift in Sources */,
 				D258C857293509A400C47252 /* CalendarCell.swift in Sources */,

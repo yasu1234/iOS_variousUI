@@ -19,6 +19,8 @@ extension LoginCustomViewController {
         let view = loginCustomView.loadNib()
         view.setupTextField()
         view.delegate = self
+        view.setupButton()
+        view.toggleSecurityTextField()
     }
 }
 

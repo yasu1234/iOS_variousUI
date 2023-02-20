@@ -1,3 +1,4 @@
+import RxSwift
 import UIKit
 
 protocol LoginCustomViewDelegate: AnyObject {
@@ -7,9 +8,12 @@ protocol LoginCustomViewDelegate: AnyObject {
 class LoginCustomView: UIView {
     @IBOutlet private weak var loginButton: UIButton!
     @IBOutlet private weak var loginIdTextField: UITextField!
-    @IBOutlet private weak var passwordTextField: UITextField!
+    @IBOutlet private weak var passwordSecureTextField: PasswordSecureTextField!
+    @IBOutlet private weak var passwordSecurityButton: UIButton!
     
     weak var delegate: LoginCustomViewDelegate?
+    
+    private let disposeBag = DisposeBag()
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -49,6 +53,23 @@ class LoginCustomView: UIView {
     func setupTextField() {
         // hide cursor when focus. if you want to show cursor, this line should comment out
         loginIdTextField.tintColor = UIColor.clear
+    }
+    
+    func setupButton() {
+        passwordSecurityButton.rx.tap
+            .subscribe { _ in
+                self.toggleSecurityTextField()
+            }.disposed(by: disposeBag)
+    }
+    
+    func toggleSecurityTextField() {
+        if passwordSecureTextField.isSecureTextEntry {
+            passwordSecureTextField.isSecureTextEntry = false
+            passwordSecurityButton.setTitle("非表示", for: .normal)
+        } else {
+            passwordSecureTextField.isSecureTextEntry = true
+            passwordSecurityButton.setTitle("表示", for: .normal)
+        }
     }
 }
 
