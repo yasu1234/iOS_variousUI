@@ -19,13 +19,21 @@
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3OW-Er-mra">
                                 <rect key="frame" x="20" y="64" width="374" height="32"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                     <segment title="Third"/>
-                                    <segment title="Fourth"/>
+                                    <segment title="" image="square.and.arrow.up" catalog="system"/>
                                 </segments>
+                                <color key="selectedSegmentTintColor" systemColor="systemPurpleColor"/>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibj-6c-rlh">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -33,10 +41,13 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3OW-Er-mra" secondAttribute="trailing" constant="20" id="8R0-13-4Ge"/>
                             <constraint firstItem="3OW-Er-mra" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="N3M-MB-80n"/>
                             <constraint firstItem="3OW-Er-mra" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="bcw-gt-nx2"/>
+                            <constraint firstItem="ibj-6c-rlh" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="fku-zI-dm0"/>
+                            <constraint firstItem="ibj-6c-rlh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="oCT-Fh-zmx"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="segment" destination="3OW-Er-mra" id="f8Q-wX-aoL"/>
+                        <outlet property="selectSegmentIndexLabel" destination="ibj-6c-rlh" id="b6C-5M-Jtt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -45,8 +56,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
