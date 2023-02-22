@@ -34,18 +34,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KIX-zJ-ES2" customClass="CustomSegmentControl" customModule="swift_variousUI" customModuleProvider="target">
+                                <rect key="frame" x="20" y="115" width="374" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3OW-Er-mra" secondAttribute="trailing" constant="20" id="8R0-13-4Ge"/>
                             <constraint firstItem="3OW-Er-mra" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="N3M-MB-80n"/>
+                            <constraint firstItem="KIX-zJ-ES2" firstAttribute="top" secondItem="3OW-Er-mra" secondAttribute="bottom" constant="20" id="Pnk-5h-7np"/>
                             <constraint firstItem="3OW-Er-mra" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="bcw-gt-nx2"/>
                             <constraint firstItem="ibj-6c-rlh" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="fku-zI-dm0"/>
                             <constraint firstItem="ibj-6c-rlh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="oCT-Fh-zmx"/>
+                            <constraint firstItem="KIX-zJ-ES2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="sGr-gn-JX4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="KIX-zJ-ES2" secondAttribute="trailing" constant="20" id="xcS-KJ-wAI"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="customSegmentControl" destination="KIX-zJ-ES2" id="qCF-dq-272"/>
                         <outlet property="segment" destination="3OW-Er-mra" id="f8Q-wX-aoL"/>
                         <outlet property="selectSegmentIndexLabel" destination="ibj-6c-rlh" id="b6C-5M-Jtt"/>
                     </connections>

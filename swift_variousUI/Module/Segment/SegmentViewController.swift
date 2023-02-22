@@ -5,6 +5,7 @@ import UIKit
 class SegmentViewController: UIViewController {
     @IBOutlet private weak var segment: UISegmentedControl!
     @IBOutlet private weak var selectSegmentIndexLabel: UILabel!
+    @IBOutlet private weak var customSegmentControl: CustomSegmentControl!
     
     private let disposeBag = DisposeBag()
     
