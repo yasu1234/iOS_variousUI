@@ -28,12 +28,6 @@
                                 </segments>
                                 <color key="selectedSegmentTintColor" systemColor="systemPurpleColor"/>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibj-6c-rlh">
-                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KIX-zJ-ES2" customClass="CustomSegmentControl" customModule="swift_variousUI" customModuleProvider="target">
                                 <rect key="frame" x="20" y="115" width="374" height="32"/>
                                 <segments>
@@ -50,16 +44,22 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ekz-hv-roF">
+                                <rect key="frame" x="0.0" y="176" width="414" height="686"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Ekz-hv-roF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="37X-Oy-Fkb"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3OW-Er-mra" secondAttribute="trailing" constant="20" id="8R0-13-4Ge"/>
                             <constraint firstItem="3OW-Er-mra" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="N3M-MB-80n"/>
                             <constraint firstItem="KIX-zJ-ES2" firstAttribute="top" secondItem="3OW-Er-mra" secondAttribute="bottom" constant="20" id="Pnk-5h-7np"/>
                             <constraint firstItem="3OW-Er-mra" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="bcw-gt-nx2"/>
-                            <constraint firstItem="ibj-6c-rlh" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="fku-zI-dm0"/>
-                            <constraint firstItem="ibj-6c-rlh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="oCT-Fh-zmx"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Ekz-hv-roF" secondAttribute="bottom" id="chA-QM-Z68"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Ekz-hv-roF" secondAttribute="trailing" id="fMT-iN-Fl6"/>
+                            <constraint firstItem="Ekz-hv-roF" firstAttribute="top" secondItem="KIX-zJ-ES2" secondAttribute="bottom" constant="30" id="l9u-FT-cft"/>
                             <constraint firstItem="KIX-zJ-ES2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="sGr-gn-JX4"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="KIX-zJ-ES2" secondAttribute="trailing" constant="20" id="xcS-KJ-wAI"/>
                         </constraints>
@@ -67,12 +67,42 @@
                     <connections>
                         <outlet property="customSegmentControl" destination="KIX-zJ-ES2" id="qCF-dq-272"/>
                         <outlet property="segment" destination="3OW-Er-mra" id="f8Q-wX-aoL"/>
-                        <outlet property="selectSegmentIndexLabel" destination="ibj-6c-rlh" id="b6C-5M-Jtt"/>
+                        <outlet property="switchView" destination="Ekz-hv-roF" id="Q8H-2C-O52"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="115"/>
+        </scene>
+        <!--Switch View Controller-->
+        <scene sceneID="86r-6A-FM5">
+            <objects>
+                <viewController storyboardIdentifier="SwitchViewController" id="Zil-Ry-jsX" customClass="SwitchViewController" customModule="swift_variousUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RHC-FV-nWC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUo-oh-kML">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LzH-wR-rEa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TUo-oh-kML" firstAttribute="centerX" secondItem="RHC-FV-nWC" secondAttribute="centerX" id="W2z-JV-vB0"/>
+                            <constraint firstItem="TUo-oh-kML" firstAttribute="centerY" secondItem="RHC-FV-nWC" secondAttribute="centerY" id="a1x-dV-Hsv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currentIndexLabel" destination="TUo-oh-kML" id="iTj-Uk-f5s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fjZ-uB-PFw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="115"/>
         </scene>
     </scenes>
     <resources>
