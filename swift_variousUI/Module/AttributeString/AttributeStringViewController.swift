@@ -2,6 +2,8 @@ import UIKit
 
 class AttributeStringViewController: UIViewController {
     @IBOutlet private weak var attributeStringLabel: UILabel!
+    @IBOutlet private weak var edgeAttributeLabel: UILabel!
+    @IBOutlet private weak var decorateLabel: DecorateLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +17,8 @@ class AttributeStringViewController: UIViewController {
 extension AttributeStringViewController {
     private func setupUI() {
         setAttributeString()
+        setEdgeAttribute()
+        setupDecorateLabel()
     }
     
     private func setAttributeString() {
@@ -43,6 +47,34 @@ extension AttributeStringViewController {
         attributeString.addAttributes(underlineAttributes, range: NSRange(location: 0, length: 2))
         
         attributeStringLabel.attributedText = attributeString
+    }
+    
+    private func setEdgeAttribute() {
+        let attributeString = NSMutableAttributedString(string: "縁取り文字")
+        let stroke:UIColor = UIColor.black
+        let foreground:UIColor = UIColor.white
+
+        let strokeTextAttributes: [NSAttributedString.Key : Any] = [
+            .strokeColor : stroke,
+            .foregroundColor : foreground,
+            .strokeWidth : 3.0,
+            .font : UIFont.boldSystemFont(ofSize: 20.0)
+        ]
+        attributeString.addAttributes(
+            strokeTextAttributes,
+            range: NSRange(location: 0, length: attributeString.length)
+        )
+        edgeAttributeLabel.attributedText = attributeString
+    }
+    
+    private func setupDecorateLabel() {
+        let stroke = UIColor.black
+        let foreground = UIColor.white
+        let width = 8.0
+        decorateLabel.strokeColor = stroke
+        decorateLabel.textColor = foreground
+        decorateLabel.strokeSize = width
+        decorateLabel.text = "縁取り文字"
     }
 }
 

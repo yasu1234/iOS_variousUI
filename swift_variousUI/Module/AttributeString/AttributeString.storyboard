@@ -23,17 +23,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdn-Fn-5dv">
+                                <rect key="frame" x="10" y="94.5" width="394" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhE-5C-Pes" customClass="DecorateLabel" customModule="swift_variousUI" customModuleProvider="target">
+                                <rect key="frame" x="10" y="135.5" width="384" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="PhE-5C-Pes" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="FQJ-It-dj8"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="j5R-XU-jQ7" secondAttribute="trailing" constant="10" id="TyO-tN-JXl"/>
+                            <constraint firstItem="PhE-5C-Pes" firstAttribute="top" secondItem="rdn-Fn-5dv" secondAttribute="bottom" constant="20" id="V9J-a0-7vf"/>
+                            <constraint firstItem="rdn-Fn-5dv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="Yri-ee-KNd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PhE-5C-Pes" secondAttribute="trailing" constant="20" id="eEh-hx-hsm"/>
+                            <constraint firstItem="rdn-Fn-5dv" firstAttribute="top" secondItem="j5R-XU-jQ7" secondAttribute="bottom" constant="20" id="vSd-lr-QHd"/>
                             <constraint firstItem="j5R-XU-jQ7" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="wyj-T4-uzp"/>
                             <constraint firstItem="j5R-XU-jQ7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="yPJ-e8-lIg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rdn-Fn-5dv" secondAttribute="trailing" constant="10" id="zmc-R3-SDk"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="attributeStringLabel" destination="j5R-XU-jQ7" id="BRf-5x-nRr"/>
+                        <outlet property="decorateLabel" destination="PhE-5C-Pes" id="fSZ-3K-eQM"/>
+                        <outlet property="edgeAttributeLabel" destination="rdn-Fn-5dv" id="RTX-z2-Tru"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
