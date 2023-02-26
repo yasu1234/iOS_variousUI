@@ -110,17 +110,26 @@
                                     <constraint firstAttribute="height" constant="200" id="Kfv-Td-2tI"/>
                                 </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wlS-d8-CKQ">
+                                <rect key="frame" x="20" y="558" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wET-Vp-MNQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wET-Vp-MNQ" firstAttribute="trailing" secondItem="0au-Pm-sQD" secondAttribute="trailing" constant="20" id="Bn2-tj-jSt"/>
+                            <constraint firstItem="wlS-d8-CKQ" firstAttribute="leading" secondItem="wET-Vp-MNQ" secondAttribute="leading" constant="20" id="CK4-Mp-jd8"/>
+                            <constraint firstItem="wET-Vp-MNQ" firstAttribute="trailing" secondItem="wlS-d8-CKQ" secondAttribute="trailing" constant="20" id="HFq-aD-DNh"/>
                             <constraint firstItem="0au-Pm-sQD" firstAttribute="leading" secondItem="wET-Vp-MNQ" secondAttribute="leading" constant="20" id="HkV-cP-eQE"/>
+                            <constraint firstItem="wlS-d8-CKQ" firstAttribute="top" secondItem="0au-Pm-sQD" secondAttribute="bottom" constant="10" id="iSy-TI-HYp"/>
                             <constraint firstItem="0au-Pm-sQD" firstAttribute="centerY" secondItem="pKS-1i-7Tf" secondAttribute="centerY" id="k3c-sE-NvX"/>
                             <constraint firstItem="0au-Pm-sQD" firstAttribute="centerX" secondItem="pKS-1i-7Tf" secondAttribute="centerX" id="qJm-f1-Xok"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dateSelectTextField" destination="wlS-d8-CKQ" id="AFu-WU-7Kh"/>
                         <outlet property="loginCustomView" destination="0au-Pm-sQD" id="2YF-CL-Geb"/>
                     </connections>
                 </viewController>

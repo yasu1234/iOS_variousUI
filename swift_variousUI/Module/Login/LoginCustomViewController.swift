@@ -1,7 +1,12 @@
+import RxSwift
 import UIKit
 
 class LoginCustomViewController: UIViewController {
     @IBOutlet private weak var loginCustomView: LoginCustomView!
+    @IBOutlet private weak var dateSelectTextField: UITextField!
+    
+    private let datePicker = UIDatePicker()
+    private let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -10,9 +15,12 @@ class LoginCustomViewController: UIViewController {
     }
 }
 
+// MARK: - UI
+
 extension LoginCustomViewController {
     private func setupUI() {
         setupLoginCustomView()
+        setupDatePicker()
     }
     
     private func setupLoginCustomView() {
@@ -22,7 +30,58 @@ extension LoginCustomViewController {
         view.setupButton()
         view.toggleSecurityTextField()
     }
+    
+    private func setupDatePicker() {
+        datePicker.datePickerMode = .dateAndTime
+        datePicker.timeZone = NSTimeZone.local
+        datePicker.locale = Locale.current
+        if #available(iOS 13.4, *) {
+            datePicker.preferredDatePickerStyle = .wheels
+        }
+        
+        datePicker.rx.controlEvent(.editingDidBegin)
+            .subscribe { _ in
+                self.datePicker.resignFirstResponder()
+            }
+            .disposed(by: disposeBag)
+        
+        dateSelectTextField.inputView = datePicker
+        dateSelectTextField.inputAssistantItem.trailingBarButtonGroups.removeAll()
+        dateSelectTextField.inputAssistantItem.leadingBarButtonGroups.removeAll()
+        dateSelectTextField.tintColor = UIColor.clear
+        
+        setupKeyboardAccessory(dateSelectTextField)
+    }
+    
+    private func setupKeyboardAccessory(_ textField: UITextField) {
+        let keyboardAccessory = UIView(
+            frame: CGRect(
+                x: 0,
+                y: 0,
+                width: UIScreen.main.bounds.size.width,
+                height: 36
+            )
+        )
+        
+        keyboardAccessory.backgroundColor = UIColor.white
+        textField.inputAccessoryView = keyboardAccessory
+        
+        let completeButton = UIButton(
+            frame: CGRect(
+                x: keyboardAccessory.bounds.size.width - 48,
+                y: 0,
+                width: 48,
+                height: 36
+            )
+        )
+        completeButton.setTitle("完了", for: .normal)
+        completeButton.setTitleColor(UIColor.blue, for: .normal)
+        completeButton.addTarget(self, action: #selector(completeButtonTapped), for: .touchUpInside)
+        keyboardAccessory.addSubview(completeButton)
+    }
 }
+
+// MARK: - Transition
 
 extension LoginCustomViewController {
     private func presentMainView() {
@@ -33,6 +92,16 @@ extension LoginCustomViewController {
         delegate.showMainContent()
     }
 }
+
+// MARK: - Interaction
+
+extension LoginCustomViewController {
+    @objc private func completeButtonTapped() {
+        dateSelectTextField.resignFirstResponder()
+    }
+}
+
+// MARK: - LoginCustomViewDelegate
 
 extension LoginCustomViewController: LoginCustomViewDelegate {
     func loginButtonPushed() {
