@@ -35,9 +35,7 @@ extension LoginCustomViewController {
         datePicker.datePickerMode = .dateAndTime
         datePicker.timeZone = NSTimeZone.local
         datePicker.locale = Locale.current
-        if #available(iOS 13.4, *) {
-            datePicker.preferredDatePickerStyle = .wheels
-        }
+        datePicker.preferredDatePickerStyle = .wheels
         
         datePicker.rx.controlEvent(.editingDidBegin)
             .subscribe { _ in
@@ -111,7 +109,11 @@ extension LoginCustomViewController: LoginCustomViewDelegate {
 
 extension LoginCustomViewController: StoryboardInstance {
     static func newInstance() -> LoginCustomViewController {
-        let controller = UIStoryboard(name:LoginCustomViewController.storyboardName(), bundle: nil).instantiateViewController(withIdentifier: LoginCustomViewController.identifer()) as! LoginCustomViewController
+        let controller = UIStoryboard(
+            name:LoginCustomViewController.storyboardName(),
+            bundle: nil
+        ).instantiateViewController(withIdentifier: LoginCustomViewController.identifer())
+        as! LoginCustomViewController
         
         return controller
     }
