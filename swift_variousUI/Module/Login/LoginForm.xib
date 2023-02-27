@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginForm" customModule="swift_variousUI" customModuleProvider="target">
             <connections>
-                <outlet property="loginButton" destination="X0V-RB-LAE" id="F01-vQ-K4L"/>
+                <outlet property="loginButton" destination="X0V-RB-LAE" id="uul-ZW-doS"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -28,7 +28,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0V-RB-LAE">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0V-RB-LAE" customClass="RippleButton" customModule="swift_variousUI" customModuleProvider="target">
                     <rect key="frame" x="32" y="172" width="350" height="30"/>
                     <state key="normal" title="ログイン"/>
                     <connections>

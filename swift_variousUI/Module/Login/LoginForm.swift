@@ -5,8 +5,7 @@ protocol LoginFormDelegate: AnyObject {
 }
 
 class LoginForm: UIView {
-
-    @IBOutlet private weak var loginButton: UIButton!
+    @IBOutlet private weak var loginButton: RippleButton!
     private var loginTapCount = 0
     weak var delegate: LoginFormDelegate?
     
@@ -49,6 +48,7 @@ extension LoginForm {
 }
 
 // MARK: - Delegate
+
 extension LoginForm {
     func realLogin(isFirstTap: Bool) {
         delegate?.realLogin(isFirstTap: isFirstTap)
