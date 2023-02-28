@@ -22,6 +22,8 @@
 		D27D857C29A7A81C00A87448 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D857B29A7A81C00A87448 /* SwitchViewController.swift */; };
 		D27D857E29A7C8AE00A87448 /* DecorateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D857D29A7C8AE00A87448 /* DecorateLabel.swift */; };
 		D27D858129AD0B3C00A87448 /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D858029AD0B3C00A87448 /* RippleButton.swift */; };
+		D27D858329AD9E0F00A87448 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D858229AD9E0F00A87448 /* TextViewController.swift */; };
+		D27D858529AD9E2300A87448 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D858429AD9E2300A87448 /* PlaceHolderTextView.swift */; };
 		D2848B1C28C248A400D64710 /* PencilKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2848B1B28C248A400D64710 /* PencilKitViewController.swift */; };
 		D2848B1E28C2492E00D64710 /* Pencil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2848B1D28C2492E00D64710 /* Pencil.storyboard */; };
 		D2892345299532D1000B1834 /* Segment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2892344299532D1000B1834 /* Segment.storyboard */; };
@@ -96,6 +98,8 @@
 		D27D857B29A7A81C00A87448 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		D27D857D29A7C8AE00A87448 /* DecorateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorateLabel.swift; sourceTree = "<group>"; };
 		D27D858029AD0B3C00A87448 /* RippleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleButton.swift; sourceTree = "<group>"; };
+		D27D858229AD9E0F00A87448 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		D27D858429AD9E2300A87448 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
 		D2848B1B28C248A400D64710 /* PencilKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitViewController.swift; sourceTree = "<group>"; };
 		D2848B1D28C2492E00D64710 /* Pencil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pencil.storyboard; sourceTree = "<group>"; };
 		D2892344299532D1000B1834 /* Segment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Segment.storyboard; sourceTree = "<group>"; };
@@ -357,6 +361,8 @@
 				D2A8C51428311A4B00AFC23F /* LoginCustomView.swift */,
 				D2A8C5122831196200AFC23F /* LoginCustomView.xib */,
 				D228A61329A3C56200A3C0DA /* PasswordSecureTextField.swift */,
+				D27D858229AD9E0F00A87448 /* TextViewController.swift */,
+				D27D858429AD9E2300A87448 /* PlaceHolderTextView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -641,6 +647,8 @@
 				D2A353E728DDF55100F5786A /* CompositionalLayoutsViewController.swift in Sources */,
 				D2A353E928DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift in Sources */,
 				D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */,
+				D27D858529AD9E2300A87448 /* PlaceHolderTextView.swift in Sources */,
+				D27D858329AD9E0F00A87448 /* TextViewController.swift in Sources */,
 				D2A353F228DF2FA400F5786A /* CompositionalLayoutsCollectionViewInteractor.swift in Sources */,
 				D27D857C29A7A81C00A87448 /* SwitchViewController.swift in Sources */,
 				D2A8C511283118A500AFC23F /* LoginCustomViewController.swift in Sources */,

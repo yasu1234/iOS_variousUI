@@ -39,6 +39,11 @@ extension CollectionViewController {
         let controller = CameraViewController.newInstance()
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    private func pushTextViewController() {
+        let controller = TextViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 // MARK: - UICollectionViewDataSource
@@ -56,7 +61,6 @@ extension CollectionViewController: UICollectionViewDataSource {
     }
 }
 
-
 // MARK: - UICollectionViewDelegate
 
 extension CollectionViewController: UICollectionViewDelegate {
@@ -71,9 +75,13 @@ extension CollectionViewController: UICollectionViewDelegate {
             pushAttributeStringViewController()
         } else if indexPath.row == 4 {
             pushCameraViewController()
+        } else if indexPath.row == 5 {
+            pushTextViewController()
         }
     }
 }
+
+// MARK: - UICollectionViewDelegateFlowLayout
 
 extension CollectionViewController: UICollectionViewDelegateFlowLayout {
     // outer margin area of collectionview
@@ -98,10 +106,6 @@ extension CollectionViewController: UICollectionViewDelegateFlowLayout {
         
         return CGSize(width: cellSize, height: 150)
     }
-}
-
-extension CollectionViewController {
-    
 }
 
 extension CollectionViewController: StoryboardInstance {
