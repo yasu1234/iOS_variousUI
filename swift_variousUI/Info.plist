@@ -35,6 +35,15 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>撮影のためにカメラを使用します</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NotoSansJP-Black.otf</string>
+		<string>NotoSansJP-Bold.otf</string>
+		<string>NotoSansJP-Light.otf</string>
+		<string>NotoSansJP-Medium.otf</string>
+		<string>NotoSansJP-Regular.otf</string>
+		<string>NotoSansJP-Thin.otf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -29,6 +29,27 @@
 		D2892345299532D1000B1834 /* Segment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2892344299532D1000B1834 /* Segment.storyboard */; };
 		D2892347299532E7000B1834 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2892346299532E7000B1834 /* SegmentViewController.swift */; };
 		D28923492996AB94000B1834 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28923482996AB94000B1834 /* UIView+IBInspectable.swift */; };
+		D2915B2129B3317A00D7F983 /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1A29B3317A00D7F983 /* NotoSansJP-Regular.otf */; };
+		D2915B2229B3317A00D7F983 /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1A29B3317A00D7F983 /* NotoSansJP-Regular.otf */; };
+		D2915B2329B3317A00D7F983 /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1A29B3317A00D7F983 /* NotoSansJP-Regular.otf */; };
+		D2915B2429B3317A00D7F983 /* NotoSansJP-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1B29B3317A00D7F983 /* NotoSansJP-Medium.otf */; };
+		D2915B2529B3317A00D7F983 /* NotoSansJP-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1B29B3317A00D7F983 /* NotoSansJP-Medium.otf */; };
+		D2915B2629B3317A00D7F983 /* NotoSansJP-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1B29B3317A00D7F983 /* NotoSansJP-Medium.otf */; };
+		D2915B2729B3317A00D7F983 /* NotoSansJP-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1C29B3317A00D7F983 /* NotoSansJP-Light.otf */; };
+		D2915B2829B3317A00D7F983 /* NotoSansJP-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1C29B3317A00D7F983 /* NotoSansJP-Light.otf */; };
+		D2915B2929B3317A00D7F983 /* NotoSansJP-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1C29B3317A00D7F983 /* NotoSansJP-Light.otf */; };
+		D2915B2A29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1D29B3317A00D7F983 /* NotoSansJP-Thin.otf */; };
+		D2915B2B29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1D29B3317A00D7F983 /* NotoSansJP-Thin.otf */; };
+		D2915B2C29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1D29B3317A00D7F983 /* NotoSansJP-Thin.otf */; };
+		D2915B2D29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1E29B3317A00D7F983 /* NotoSansJP-Bold.otf */; };
+		D2915B2E29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1E29B3317A00D7F983 /* NotoSansJP-Bold.otf */; };
+		D2915B2F29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1E29B3317A00D7F983 /* NotoSansJP-Bold.otf */; };
+		D2915B3029B3317A00D7F983 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1F29B3317A00D7F983 /* OFL.txt */; };
+		D2915B3129B3317A00D7F983 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1F29B3317A00D7F983 /* OFL.txt */; };
+		D2915B3229B3317A00D7F983 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2915B1F29B3317A00D7F983 /* OFL.txt */; };
+		D2915B3329B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B2029B3317A00D7F983 /* NotoSansJP-Black.otf */; };
+		D2915B3429B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B2029B3317A00D7F983 /* NotoSansJP-Black.otf */; };
+		D2915B3529B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2915B2029B3317A00D7F983 /* NotoSansJP-Black.otf */; };
 		D29358DA29A4D9700054DC28 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29358D929A4D9700054DC28 /* CustomSegmentControl.swift */; };
 		D2A353E728DDF55100F5786A /* CompositionalLayoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */; };
 		D2A353E928DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A353E828DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift */; };
@@ -47,7 +68,6 @@
 		D2A8C51828341E4B00AFC23F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8C51728341E4B00AFC23F /* MainTabBarController.swift */; };
 		D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC139E2531E8C0007EE06A /* AppDelegate.swift */; };
 		D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */; };
-		D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13A22531E8C0007EE06A /* ViewController.swift */; };
 		D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13A72531E8C3007EE06A /* Assets.xcassets */; };
 		D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */; };
 		D2AC13B62531E8C3007EE06A /* swift_variousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13B52531E8C3007EE06A /* swift_variousUITests.swift */; };
@@ -105,6 +125,13 @@
 		D2892344299532D1000B1834 /* Segment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Segment.storyboard; sourceTree = "<group>"; };
 		D2892346299532E7000B1834 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		D28923482996AB94000B1834 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		D2915B1A29B3317A00D7F983 /* NotoSansJP-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Regular.otf"; sourceTree = "<group>"; };
+		D2915B1B29B3317A00D7F983 /* NotoSansJP-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Medium.otf"; sourceTree = "<group>"; };
+		D2915B1C29B3317A00D7F983 /* NotoSansJP-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Light.otf"; sourceTree = "<group>"; };
+		D2915B1D29B3317A00D7F983 /* NotoSansJP-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Thin.otf"; sourceTree = "<group>"; };
+		D2915B1E29B3317A00D7F983 /* NotoSansJP-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Bold.otf"; sourceTree = "<group>"; };
+		D2915B1F29B3317A00D7F983 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		D2915B2029B3317A00D7F983 /* NotoSansJP-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Black.otf"; sourceTree = "<group>"; };
 		D29358D929A4D9700054DC28 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
 		D2A353E628DDF55100F5786A /* CompositionalLayoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsViewController.swift; sourceTree = "<group>"; };
 		D2A353E828DE9CF300F5786A /* CompositionalLayoutsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutsCollectionView.swift; sourceTree = "<group>"; };
@@ -124,7 +151,6 @@
 		D2AC139B2531E8C0007EE06A /* swift_variousUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_variousUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC139E2531E8C0007EE06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2AC13A22531E8C0007EE06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2AC13A72531E8C3007EE06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2AC13AA2531E8C3007EE06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2AC13AC2531E8C3007EE06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -251,6 +277,31 @@
 			path = Segment;
 			sourceTree = "<group>";
 		};
+		D2915AFF29B32CEB00D7F983 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D2915B1929B3317A00D7F983 /* Noto_Sans_JP */,
+				D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */,
+				D2AC13A72531E8C3007EE06A /* Assets.xcassets */,
+				D2AC13AC2531E8C3007EE06A /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D2915B1929B3317A00D7F983 /* Noto_Sans_JP */ = {
+			isa = PBXGroup;
+			children = (
+				D2915B1A29B3317A00D7F983 /* NotoSansJP-Regular.otf */,
+				D2915B1B29B3317A00D7F983 /* NotoSansJP-Medium.otf */,
+				D2915B1C29B3317A00D7F983 /* NotoSansJP-Light.otf */,
+				D2915B1D29B3317A00D7F983 /* NotoSansJP-Thin.otf */,
+				D2915B1E29B3317A00D7F983 /* NotoSansJP-Bold.otf */,
+				D2915B1F29B3317A00D7F983 /* OFL.txt */,
+				D2915B2029B3317A00D7F983 /* NotoSansJP-Black.otf */,
+			);
+			path = Noto_Sans_JP;
+			sourceTree = "<group>";
+		};
 		D2A353EA28DF0EDE00F5786A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,14 +371,11 @@
 			children = (
 				D2A353EA28DF0EDE00F5786A /* Extension */,
 				D2A353F728DFF51B00F5786A /* Module */,
-				D27D857F29AD0B2400A87448 /* Widget */,
 				D21855C826E3AF7D00DF7F29 /* Protocol */,
+				D27D857F29AD0B2400A87448 /* Widget */,
 				D2AC139E2531E8C0007EE06A /* AppDelegate.swift */,
 				D2AC13A02531E8C0007EE06A /* SceneDelegate.swift */,
-				D2AC13A22531E8C0007EE06A /* ViewController.swift */,
-				D2AC13A72531E8C3007EE06A /* Assets.xcassets */,
-				D2AC13A92531E8C3007EE06A /* LaunchScreen.storyboard */,
-				D2AC13AC2531E8C3007EE06A /* Info.plist */,
+				D2915AFF29B32CEB00D7F983 /* Resource */,
 			);
 			path = swift_variousUI;
 			sourceTree = "<group>";
@@ -502,13 +550,20 @@
 				D2AC13DF253B6B5F007EE06A /* Collection.storyboard in Resources */,
 				D27AF33A2974360E00642A0F /* AttributeString.storyboard in Resources */,
 				D2892345299532D1000B1834 /* Segment.storyboard in Resources */,
+				D2915B2429B3317A00D7F983 /* NotoSansJP-Medium.otf in Resources */,
 				D2848B1E28C2492E00D64710 /* Pencil.storyboard in Resources */,
+				D2915B2129B3317A00D7F983 /* NotoSansJP-Regular.otf in Resources */,
+				D2915B3029B3317A00D7F983 /* OFL.txt in Resources */,
 				D2AC13CF25320C8E007EE06A /* Login.storyboard in Resources */,
 				D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */,
+				D2915B2A29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */,
 				D2A353F028DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib in Resources */,
+				D2915B2D29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
+				D2915B3329B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */,
 				D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */,
 				D258C858293509A400C47252 /* CalendarCell.xib in Resources */,
+				D2915B2729B3317A00D7F983 /* NotoSansJP-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +571,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2915B3129B3317A00D7F983 /* OFL.txt in Resources */,
+				D2915B2829B3317A00D7F983 /* NotoSansJP-Light.otf in Resources */,
+				D2915B2B29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */,
+				D2915B2E29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */,
+				D2915B2229B3317A00D7F983 /* NotoSansJP-Regular.otf in Resources */,
+				D2915B2529B3317A00D7F983 /* NotoSansJP-Medium.otf in Resources */,
+				D2915B3429B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +585,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2915B3229B3317A00D7F983 /* OFL.txt in Resources */,
+				D2915B2929B3317A00D7F983 /* NotoSansJP-Light.otf in Resources */,
+				D2915B2C29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */,
+				D2915B2F29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */,
+				D2915B2329B3317A00D7F983 /* NotoSansJP-Regular.otf in Resources */,
+				D2915B2629B3317A00D7F983 /* NotoSansJP-Medium.otf in Resources */,
+				D2915B3529B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,7 +707,6 @@
 			files = (
 				D2A3547F2905625200F5786A /* CalenderCollectionView.swift in Sources */,
 				D260BECD2999F81700AC18F2 /* UIViewController+Keyboard.swift in Sources */,
-				D2AC13A32531E8C0007EE06A /* ViewController.swift in Sources */,
 				D2A3547D290548A300F5786A /* CalenderViewController.swift in Sources */,
 				D2A353EF28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.swift in Sources */,
 				D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */,
