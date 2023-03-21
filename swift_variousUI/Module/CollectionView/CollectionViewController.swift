@@ -44,6 +44,11 @@ extension CollectionViewController {
         let controller = TextViewController.newInstance()
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    private func pushSliderViewController() {
+        let controller = SliderViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 // MARK: - UICollectionViewDataSource
@@ -77,6 +82,8 @@ extension CollectionViewController: UICollectionViewDelegate {
             pushCameraViewController()
         } else if indexPath.row == 5 {
             pushTextViewController()
+        } else if indexPath.row == 6 {
+            pushSliderViewController()
         }
     }
 }

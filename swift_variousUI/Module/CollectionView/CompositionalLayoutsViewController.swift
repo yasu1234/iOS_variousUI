@@ -12,6 +12,8 @@ class CompositionalLayoutsViewController: UIViewController {
     }
 }
 
+// MARK: - UI
+
 extension CompositionalLayoutsViewController {
     private func setupUI() {
         setupCollectionView()

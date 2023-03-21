@@ -17,6 +17,9 @@
 		D260BECD2999F81700AC18F2 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260BECC2999F81700AC18F2 /* UIViewController+Keyboard.swift */; };
 		D260BED0299BCB4700AC18F2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260BECF299BCB4700AC18F2 /* CameraViewController.swift */; };
 		D260BED2299BCBE300AC18F2 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D260BED1299BCBE300AC18F2 /* Camera.storyboard */; };
+		D266DDBA29C8820F006F668C /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266DDB929C8820F006F668C /* SliderViewController.swift */; };
+		D266DDBC29C8826A006F668C /* Slider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D266DDBB29C8826A006F668C /* Slider.storyboard */; };
+		D266DDBE29C9A06E006F668C /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266DDBD29C9A06D006F668C /* CustomSlider.swift */; };
 		D27AF33A2974360E00642A0F /* AttributeString.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27AF3392974360E00642A0F /* AttributeString.storyboard */; };
 		D27AF33C2974362A00642A0F /* AttributeStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AF33B2974362A00642A0F /* AttributeStringViewController.swift */; };
 		D27D857C29A7A81C00A87448 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D857B29A7A81C00A87448 /* SwitchViewController.swift */; };
@@ -113,6 +116,9 @@
 		D260BECC2999F81700AC18F2 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		D260BECF299BCB4700AC18F2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D260BED1299BCBE300AC18F2 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		D266DDB929C8820F006F668C /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		D266DDBB29C8826A006F668C /* Slider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Slider.storyboard; sourceTree = "<group>"; };
+		D266DDBD29C9A06D006F668C /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		D27AF3392974360E00642A0F /* AttributeString.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AttributeString.storyboard; sourceTree = "<group>"; };
 		D27AF33B2974362A00642A0F /* AttributeStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeStringViewController.swift; sourceTree = "<group>"; };
 		D27D857B29A7A81C00A87448 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +245,16 @@
 			path = Camera;
 			sourceTree = "<group>";
 		};
+		D266DDB829C881F5006F668C /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				D266DDB929C8820F006F668C /* SliderViewController.swift */,
+				D266DDBB29C8826A006F668C /* Slider.storyboard */,
+				D266DDBD29C9A06D006F668C /* CustomSlider.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
 		D27AF338297435F500642A0F /* AttributeString */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +347,7 @@
 				D2AC13D6253360C2007EE06A /* Login */,
 				D2848B1A28C2487300D64710 /* Pencil */,
 				D2892343299532BD000B1834 /* Segment */,
+				D266DDB829C881F5006F668C /* Slider */,
 				D2A353F628DFF50200F5786A /* Tab */,
 			);
 			path = Module;
@@ -558,6 +575,7 @@
 				D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */,
 				D2915B2A29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */,
 				D2A353F028DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib in Resources */,
+				D266DDBC29C8826A006F668C /* Slider.storyboard in Resources */,
 				D2915B2D29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
 				D2915B3329B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */,
@@ -706,10 +724,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A3547F2905625200F5786A /* CalenderCollectionView.swift in Sources */,
+				D266DDBE29C9A06E006F668C /* CustomSlider.swift in Sources */,
 				D260BECD2999F81700AC18F2 /* UIViewController+Keyboard.swift in Sources */,
 				D2A3547D290548A300F5786A /* CalenderViewController.swift in Sources */,
 				D2A353EF28DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.swift in Sources */,
 				D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */,
+				D266DDBA29C8820F006F668C /* SliderViewController.swift in Sources */,
 				D2A8C51828341E4B00AFC23F /* MainTabBarController.swift in Sources */,
 				D2A353F928DFF56000F5786A /* TabPagerViewController.swift in Sources */,
 				D2A353E728DDF55100F5786A /* CompositionalLayoutsViewController.swift in Sources */,
