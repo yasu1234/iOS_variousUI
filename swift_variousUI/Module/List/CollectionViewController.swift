@@ -49,6 +49,11 @@ extension CollectionViewController {
         let controller = SliderViewController.newInstance()
         navigationController?.pushViewController(controller, animated: true)
     }
+    
+    private func pushTableViewController() {
+        let controller = TableViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 // MARK: - UICollectionViewDataSource
@@ -84,6 +89,8 @@ extension CollectionViewController: UICollectionViewDelegate {
             pushTextViewController()
         } else if indexPath.row == 6 {
             pushSliderViewController()
+        } else if indexPath.row == 7 {
+            pushTableViewController()
         }
     }
 }

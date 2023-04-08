@@ -11,6 +11,8 @@ class TabPagerViewController: UIViewController {
     }
 }
 
+// MARK: - UI
+
 extension TabPagerViewController {
     private func setupUI() {
         setupTab()
