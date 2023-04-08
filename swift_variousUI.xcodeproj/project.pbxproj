@@ -81,7 +81,7 @@
 		D2AC13D52532A1E8007EE06A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D42532A1E8007EE06A /* LoginViewController.swift */; };
 		D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D7253B6995007EE06A /* CollectionViewController.swift */; };
 		D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13DC253B6ACC007EE06A /* XibInstance.swift */; };
-		D2AC13DF253B6B5F007EE06A /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13DE253B6B5F007EE06A /* Collection.storyboard */; };
+		D2AC13DF253B6B5F007EE06A /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13DE253B6B5F007EE06A /* List.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,7 +172,7 @@
 		D2AC13D42532A1E8007EE06A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D2AC13D7253B6995007EE06A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		D2AC13DC253B6ACC007EE06A /* XibInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibInstance.swift; sourceTree = "<group>"; };
-		D2AC13DE253B6B5F007EE06A /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		D2AC13DE253B6B5F007EE06A /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
 		F90C889D70C7A9D2082C3A78 /* Pods_swift_variousUI_swift_variousUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_variousUI_swift_variousUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93C1AB57E3F16CDE2DA9051 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -343,7 +343,7 @@
 				D260BECE299BCB2D00AC18F2 /* Camera */,
 				D27AF338297435F500642A0F /* AttributeString */,
 				D2A8C51628341E2F00AFC23F /* Base */,
-				D2AC13D9253B69FE007EE06A /* CollectionView */,
+				D2AC13D9253B69FE007EE06A /* List */,
 				D2AC13D6253360C2007EE06A /* Login */,
 				D2848B1A28C2487300D64710 /* Pencil */,
 				D2892343299532BD000B1834 /* Segment */,
@@ -432,7 +432,7 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		D2AC13D9253B69FE007EE06A /* CollectionView */ = {
+		D2AC13D9253B69FE007EE06A /* List */ = {
 			isa = PBXGroup;
 			children = (
 				D2AC13D7253B6995007EE06A /* CollectionViewController.swift */,
@@ -447,9 +447,9 @@
 				D2A3547E2905625200F5786A /* CalenderCollectionView.swift */,
 				D258C855293509A400C47252 /* CalendarCell.swift */,
 				D258C856293509A400C47252 /* CalendarCell.xib */,
-				D2AC13DE253B6B5F007EE06A /* Collection.storyboard */,
+				D2AC13DE253B6B5F007EE06A /* List.storyboard */,
 			);
-			path = CollectionView;
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -564,7 +564,7 @@
 				D2AC13D12532353C007EE06A /* LoginForm.xib in Resources */,
 				D2A353FB28DFF5D200F5786A /* Tab.storyboard in Resources */,
 				D260BED2299BCBE300AC18F2 /* Camera.storyboard in Resources */,
-				D2AC13DF253B6B5F007EE06A /* Collection.storyboard in Resources */,
+				D2AC13DF253B6B5F007EE06A /* List.storyboard in Resources */,
 				D27AF33A2974360E00642A0F /* AttributeString.storyboard in Resources */,
 				D2892345299532D1000B1834 /* Segment.storyboard in Resources */,
 				D2915B2429B3317A00D7F983 /* NotoSansJP-Medium.otf in Resources */,

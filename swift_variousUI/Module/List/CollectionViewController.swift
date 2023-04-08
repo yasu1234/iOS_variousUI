@@ -123,7 +123,7 @@ extension CollectionViewController: StoryboardInstance {
     }
     
     static func storyboardName() -> String {
-        return "Collection"
+        return "List"
     }
     
     static func identifer() -> String {
