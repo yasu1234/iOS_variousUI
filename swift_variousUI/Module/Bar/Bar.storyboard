@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="huc-lC-uFU">
-                                <rect key="frame" x="18" y="64" width="378" height="31"/>
+                                <rect key="frame" x="18" y="68" width="378" height="31"/>
                                 <color key="minimumTrackTintColor" red="1" green="0.43134603230000002" blue="0.4270491824" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="maximumTrackTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ig-sm-4ZJ">
-                                <rect key="frame" x="20" y="114" width="374" height="2"/>
+                                <rect key="frame" x="20" y="118" width="374" height="2"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgo-Q4-GcB" userLabel="FirstView">
                                         <rect key="frame" x="0.0" y="-4" width="10" height="10"/>
@@ -99,13 +99,21 @@
                                 </constraints>
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="1" maxValue="4" translatesAutoresizingMaskIntoConstraints="NO" id="4S3-Jq-qJm">
-                                <rect key="frame" x="18" y="114" width="378" height="3"/>
+                                <rect key="frame" x="18" y="118" width="378" height="3"/>
                                 <color key="minimumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="maximumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OpC-bD-NZd" customClass="CustomSlider" customModule="swift_variousUI" customModuleProvider="target">
-                                <rect key="frame" x="18" y="166" width="378" height="31"/>
+                                <rect key="frame" x="18" y="170" width="378" height="31"/>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3py-fv-7Ny">
+                                <rect key="frame" x="20" y="822" width="374" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go Progress"/>
+                                <connections>
+                                    <action selector="showProgressViewButtonPushed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="pdq-1O-mRb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -121,8 +129,11 @@
                             <constraint firstItem="4S3-Jq-qJm" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="f0S-QA-bom"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0ig-sm-4ZJ" secondAttribute="trailing" constant="20" id="fWD-V6-RCI"/>
                             <constraint firstItem="huc-lC-uFU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="faO-08-bGB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3py-fv-7Ny" secondAttribute="trailing" constant="20" id="iuh-P1-mCf"/>
+                            <constraint firstItem="3py-fv-7Ny" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="jNY-QL-pa7"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4S3-Jq-qJm" secondAttribute="trailing" constant="20" id="lfw-9H-wof"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="huc-lC-uFU" secondAttribute="trailing" constant="20" id="okc-gI-lFf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="3py-fv-7Ny" secondAttribute="bottom" constant="5" id="vWw-0f-g0v"/>
                         </constraints>
                     </view>
                     <connections>
@@ -134,10 +145,51 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="109.82142857142857"/>
         </scene>
+        <!--Progress View Controller-->
+        <scene sceneID="JxO-tu-Yop">
+            <objects>
+                <viewController storyboardIdentifier="ProgressViewController" id="3RH-26-lm5" customClass="ProgressViewController" customModule="swift_variousUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m81-bC-uGE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9Vm-Y6-av6">
+                                <rect key="frame" x="20" y="68" width="374" height="4"/>
+                                <color key="progressTintColor" systemColor="systemCyanColor"/>
+                                <color key="trackTintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qss-nC-yNe">
+                                <rect key="frame" x="110" y="172" width="194" height="2.5"/>
+                                <color key="trackTintColor" red="1" green="0.43134603230000002" blue="0.4270491824" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bgU-is-bb4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qss-nC-yNe" firstAttribute="leading" secondItem="bgU-is-bb4" secondAttribute="leading" constant="110" id="Aat-Ky-ucG"/>
+                            <constraint firstItem="bgU-is-bb4" firstAttribute="trailing" secondItem="Qss-nC-yNe" secondAttribute="trailing" constant="110" id="Mmq-5C-dFZ"/>
+                            <constraint firstItem="9Vm-Y6-av6" firstAttribute="leading" secondItem="bgU-is-bb4" secondAttribute="leading" constant="20" id="R21-eR-Jsg"/>
+                            <constraint firstItem="9Vm-Y6-av6" firstAttribute="top" secondItem="bgU-is-bb4" secondAttribute="top" constant="20" id="UqM-hw-YMp"/>
+                            <constraint firstItem="bgU-is-bb4" firstAttribute="trailing" secondItem="9Vm-Y6-av6" secondAttribute="trailing" constant="20" id="V9T-1N-cJV"/>
+                            <constraint firstItem="Qss-nC-yNe" firstAttribute="top" secondItem="9Vm-Y6-av6" secondAttribute="bottom" constant="100" id="bXT-nB-BHH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barProgressView" destination="Qss-nC-yNe" id="Pjz-rM-Txt"/>
+                        <outlet property="defaultProgressView" destination="9Vm-Y6-av6" id="A1Y-Fh-oYQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sYD-vZ-0zS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="806" y="119"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

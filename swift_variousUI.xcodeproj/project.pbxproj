@@ -18,7 +18,7 @@
 		D260BED0299BCB4700AC18F2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260BECF299BCB4700AC18F2 /* CameraViewController.swift */; };
 		D260BED2299BCBE300AC18F2 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D260BED1299BCBE300AC18F2 /* Camera.storyboard */; };
 		D266DDBA29C8820F006F668C /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266DDB929C8820F006F668C /* SliderViewController.swift */; };
-		D266DDBC29C8826A006F668C /* Slider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D266DDBB29C8826A006F668C /* Slider.storyboard */; };
+		D266DDBC29C8826A006F668C /* Bar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D266DDBB29C8826A006F668C /* Bar.storyboard */; };
 		D266DDBE29C9A06E006F668C /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266DDBD29C9A06D006F668C /* CustomSlider.swift */; };
 		D27AF33A2974360E00642A0F /* AttributeString.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27AF3392974360E00642A0F /* AttributeString.storyboard */; };
 		D27AF33C2974362A00642A0F /* AttributeStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27AF33B2974362A00642A0F /* AttributeStringViewController.swift */; };
@@ -88,6 +88,7 @@
 		D2EA43E229E17F69004DDB4F /* TableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA43E029E17F69004DDB4F /* TableCellTableViewCell.swift */; };
 		D2EA43E329E17F69004DDB4F /* TableCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2EA43E129E17F69004DDB4F /* TableCellTableViewCell.xib */; };
 		D2EA43E529E17FEE004DDB4F /* TableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA43E429E17FEE004DDB4F /* TableViewInteractor.swift */; };
+		D2EA43EC29EB9C3A004DDB4F /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA43EB29EB9C3A004DDB4F /* ProgressViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,7 +124,7 @@
 		D260BECF299BCB4700AC18F2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D260BED1299BCBE300AC18F2 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		D266DDB929C8820F006F668C /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
-		D266DDBB29C8826A006F668C /* Slider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Slider.storyboard; sourceTree = "<group>"; };
+		D266DDBB29C8826A006F668C /* Bar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bar.storyboard; sourceTree = "<group>"; };
 		D266DDBD29C9A06D006F668C /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		D27AF3392974360E00642A0F /* AttributeString.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AttributeString.storyboard; sourceTree = "<group>"; };
 		D27AF33B2974362A00642A0F /* AttributeStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeStringViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +186,7 @@
 		D2EA43E029E17F69004DDB4F /* TableCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellTableViewCell.swift; sourceTree = "<group>"; };
 		D2EA43E129E17F69004DDB4F /* TableCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCellTableViewCell.xib; sourceTree = "<group>"; };
 		D2EA43E429E17FEE004DDB4F /* TableViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewInteractor.swift; sourceTree = "<group>"; };
+		D2EA43EB29EB9C3A004DDB4F /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		F90C889D70C7A9D2082C3A78 /* Pods_swift_variousUI_swift_variousUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_variousUI_swift_variousUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93C1AB57E3F16CDE2DA9051 /* Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift_variousUI-swift_variousUIUITests/Pods-swift_variousUI-swift_variousUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,14 +259,15 @@
 			path = Camera;
 			sourceTree = "<group>";
 		};
-		D266DDB829C881F5006F668C /* Slider */ = {
+		D266DDB829C881F5006F668C /* Bar */ = {
 			isa = PBXGroup;
 			children = (
 				D266DDB929C8820F006F668C /* SliderViewController.swift */,
-				D266DDBB29C8826A006F668C /* Slider.storyboard */,
+				D266DDBB29C8826A006F668C /* Bar.storyboard */,
 				D266DDBD29C9A06D006F668C /* CustomSlider.swift */,
+				D2EA43EB29EB9C3A004DDB4F /* ProgressViewController.swift */,
 			);
-			path = Slider;
+			path = Bar;
 			sourceTree = "<group>";
 		};
 		D27AF338297435F500642A0F /* AttributeString */ = {
@@ -360,7 +363,7 @@
 				D2AC13D6253360C2007EE06A /* Login */,
 				D2848B1A28C2487300D64710 /* Pencil */,
 				D2892343299532BD000B1834 /* Segment */,
-				D266DDB829C881F5006F668C /* Slider */,
+				D266DDB829C881F5006F668C /* Bar */,
 				D2A353F628DFF50200F5786A /* Tab */,
 			);
 			path = Module;
@@ -594,7 +597,7 @@
 				D2A8C5132831196200AFC23F /* LoginCustomView.xib in Resources */,
 				D2915B2A29B3317A00D7F983 /* NotoSansJP-Thin.otf in Resources */,
 				D2A353F028DF1FBC00F5786A /* CompositionalLayoutsCollectionCell.xib in Resources */,
-				D266DDBC29C8826A006F668C /* Slider.storyboard in Resources */,
+				D266DDBC29C8826A006F668C /* Bar.storyboard in Resources */,
 				D2915B2D29B3317A00D7F983 /* NotoSansJP-Bold.otf in Resources */,
 				D2AC13AB2531E8C3007EE06A /* LaunchScreen.storyboard in Resources */,
 				D2915B3329B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */,
@@ -781,6 +784,7 @@
 				D28923492996AB94000B1834 /* UIView+IBInspectable.swift in Sources */,
 				D21855CB26E3C13800DF7F29 /* TestCollectionViewCell.swift in Sources */,
 				D29358DA29A4D9700054DC28 /* CustomSegmentControl.swift in Sources */,
+				D2EA43EC29EB9C3A004DDB4F /* ProgressViewController.swift in Sources */,
 				D2AC13D325329DB7007EE06A /* LoginForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

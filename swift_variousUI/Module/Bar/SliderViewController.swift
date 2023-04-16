@@ -59,6 +59,11 @@ extension SliderViewController {
             }
         }
     }
+    
+    @IBAction func showProgressViewButtonPushed(_ sender: Any) {
+        let controller = ProgressViewController.newInstance()
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 extension SliderViewController: StoryboardInstance {
@@ -72,7 +77,7 @@ extension SliderViewController: StoryboardInstance {
     }
     
     static func storyboardName() -> String {
-        return "Slider"
+        return "Bar"
     }
     
     static func identifer() -> String {
