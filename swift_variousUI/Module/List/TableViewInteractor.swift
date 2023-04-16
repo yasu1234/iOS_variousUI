@@ -63,7 +63,9 @@ extension TableViewInteractor: UITableViewDelegate {
         return true
     }
     
-    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+    func tableView(_ tableView: UITableView,
+                   trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath
+    ) -> UISwipeActionsConfiguration? {
         let destructAction = UIContextualAction(style: .destructive, title: "") { (action, view, completionHandler) in
             completionHandler(true)
         }
@@ -76,5 +78,18 @@ extension TableViewInteractor: UITableViewDelegate {
         
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
+
+extension TableViewInteractor: UIScrollViewDelegate {
+    // find the index of the top cell of the table view Even when it is scrolling
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        guard let tableView = tableView else {
+            return
+        }
+        let visiableCells = tableView.visibleCells
+        if let cell = visiableCells.first as? TableCellTableViewCell {
+            print(cell.textLabel?.text)
+        }
     }
 }

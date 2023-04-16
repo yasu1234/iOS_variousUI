@@ -4,7 +4,7 @@ class TableViewController: UIViewController {
     @IBOutlet private weak var tableView: TableView!
     
     private let interactor = TableViewInteractor()
-    private let userList = ["John", "Don", "Anne", "Frank"]
+    private let userList = ["John", "Don", "Anne", "Frank", "Tom", "Kuma", "Norman", "Sho"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
