@@ -82,6 +82,8 @@
 		D2AC13D8253B6995007EE06A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13D7253B6995007EE06A /* CollectionViewController.swift */; };
 		D2AC13DD253B6ACC007EE06A /* XibInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC13DC253B6ACC007EE06A /* XibInstance.swift */; };
 		D2AC13DF253B6B5F007EE06A /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC13DE253B6B5F007EE06A /* List.storyboard */; };
+		D2BCB4502B7D810800D3A8F5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCB44F2B7D810800D3A8F5 /* WebViewController.swift */; };
+		D2BCB4522B7D817E00D3A8F5 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BCB4512B7D817E00D3A8F5 /* Web.storyboard */; };
 		D2EA43DB29E17D98004DDB4F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA43DA29E17D98004DDB4F /* TableViewController.swift */; };
 		D2EA43DD29E17E30004DDB4F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA43DC29E17E30004DDB4F /* TableView.swift */; };
 		D2EA43DF29E17E50004DDB4F /* UITableView+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA43DE29E17E50004DDB4F /* UITableView+Registration.swift */; };
@@ -180,6 +182,8 @@
 		D2AC13D7253B6995007EE06A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		D2AC13DC253B6ACC007EE06A /* XibInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibInstance.swift; sourceTree = "<group>"; };
 		D2AC13DE253B6B5F007EE06A /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
+		D2BCB44F2B7D810800D3A8F5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D2BCB4512B7D817E00D3A8F5 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
 		D2EA43DA29E17D98004DDB4F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D2EA43DC29E17E30004DDB4F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		D2EA43DE29E17E50004DDB4F /* UITableView+Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Registration.swift"; sourceTree = "<group>"; };
@@ -364,6 +368,7 @@
 				D2848B1A28C2487300D64710 /* Pencil */,
 				D2892343299532BD000B1834 /* Segment */,
 				D266DDB829C881F5006F668C /* Bar */,
+				D2BCB44E2B7D80F100D3A8F5 /* Web */,
 				D2A353F628DFF50200F5786A /* Tab */,
 			);
 			path = Module;
@@ -471,6 +476,15 @@
 				D2AC13DE253B6B5F007EE06A /* List.storyboard */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		D2BCB44E2B7D80F100D3A8F5 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				D2BCB44F2B7D810800D3A8F5 /* WebViewController.swift */,
+				D2BCB4512B7D817E00D3A8F5 /* Web.storyboard */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -603,6 +617,7 @@
 				D2915B3329B3317A00D7F983 /* NotoSansJP-Black.otf in Resources */,
 				D2AC13A82531E8C3007EE06A /* Assets.xcassets in Resources */,
 				D258C858293509A400C47252 /* CalendarCell.xib in Resources */,
+				D2BCB4522B7D817E00D3A8F5 /* Web.storyboard in Resources */,
 				D2915B2729B3317A00D7F983 /* NotoSansJP-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -770,6 +785,7 @@
 				D27AF33C2974362A00642A0F /* AttributeStringViewController.swift in Sources */,
 				D2EA43DF29E17E50004DDB4F /* UITableView+Registration.swift in Sources */,
 				D2AC139F2531E8C0007EE06A /* AppDelegate.swift in Sources */,
+				D2BCB4502B7D810800D3A8F5 /* WebViewController.swift in Sources */,
 				D2AC13A12531E8C0007EE06A /* SceneDelegate.swift in Sources */,
 				D2EA43E529E17FEE004DDB4F /* TableViewInteractor.swift in Sources */,
 				D260BED0299BCB4700AC18F2 /* CameraViewController.swift in Sources */,
